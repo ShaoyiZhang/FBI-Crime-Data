@@ -5,7 +5,8 @@ Link to group page(Chinese): http://www.minkoder.com/crimerateproj
 
 Current Attributes in Json:
 
-    Num: Number of violent crimes occured in this city during 2015
+
+    Num: Number of violent crimes occured in this city during 2015
 
     Index: Crime Rate / mean Crime Rate (An indicator for city safety compared to US average)
     
