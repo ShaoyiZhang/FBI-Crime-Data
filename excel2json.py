@@ -26,16 +26,8 @@ removeNonAlpha = re.compile('[^a-zA-Z,\ /]')
 for i in range(1,df.shape[0]):
     if type(df.iloc[i]["State"]) != str:
         df.iloc[i]["State"] = df.iloc[i-1]["State"] # fill state column for all cities
-        # if 'Village' in df.iloc[i]["City"]:
-        #     # print(df.iloc[i]["City"])   
-        #     temp = re.findall(r"[0-9]", df.iloc[i]["City"])
-        #     # print(temp)         
-
         reObj = re.findall(r"[0-9]", df.iloc[i]["City"])
         if reObj != None and reObj != []:
-            # print(df.iloc[i]["City"].dtype)
-            # print(df.iloc[i]["City"])            
-            # df.iloc[i]["City"] = df.iloc[i]["City"][:-1]
             df.iloc[i]["City"] = removeNonAlpha.sub('', df.iloc[i]["City"])         
             # solve issue "Santa Barbara5"
     else:
@@ -47,8 +39,6 @@ df["State"] = df["State"].apply(lambda state: stateDict[state])
 df = df[df.Population != 0]
 numOfCities = df.shape[0]
 
-# print(df[df.Population != 0].shape,df.shape)
-
 # Calculate violent crime rate for each city in df
 # number of violent crimes occured for 100k people every year 
 # violent crime rate = # of violent crimes/ (city pop * 100000)
@@ -57,25 +47,20 @@ def getCriRate(row):
         return row['Violent\ncrime'] / (row['Population'] / 100000) #df.ix[1:10,'Population']
     except ZeroDivisionError:
         return 0
-
 df['Rate'] = df.apply(getCriRate, axis = 1)
 
-# avgCriRate = df.ix[:,'Crime Rate'].mean()
-# avgCriRate = df.ix[:,'Population'].sum() / (df.ix[:,'Violent\ncrime'].sum()/100000)
 avgCriRate = 372.6 # https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/table-1
-# print(avgCriRate)
-# a = df.ix[:,'Population'].sum()
-# b = df.ix[:,'Violent\ncrime'].sum()
-# print(a)
-# print(b)
-# print(b/(a/100000))
 USPOP = df.ix[:,"Population"].sum()
 
 df = df.sort_values(by=['Rate','Population'], ascending = [True,False])
 df['Ranking'] = np.nan
 df['Index'] = np.nan
-popInSaferCities = 0.0
 currentCriRate = 0.0
+
+# ensure that Ranking for zero crime cities are the same
+zeroCrimePop = float(df[df.Rate == 0]['Population'].sum())
+zeroSafterPercent = (USPOP - zeroCrimePop)/USPOP
+popInSaferCities = zeroCrimePop
 
 # calculate crime ranking & index by pop
 for i in range(0,numOfCities):
@@ -83,21 +68,24 @@ for i in range(0,numOfCities):
     # -1: Index -2: Ranking -3: Rate
     # Index:  Rate / mean Rate
     # Ranking: safter than % of people in U.S.
-    df.iloc[i,-2] = (USPOP - popInSaferCities) / USPOP * 100
     try:
         df.iloc[i,-3] = int(df.iloc[i,-3])
     except:
         # missing data in violent crime column, set to zero 
         df.iloc[i,-3] = 0
+    
+    if df.iloc[i,-3] == 0:
+        df.iloc[i,-2] = zeroSafterPercent
+    else:
+        popInSaferCities +=  df.iloc[i]['Population']        
+        df.iloc[i,-2] = (USPOP - popInSaferCities) / USPOP * 100
 
     df.iloc[i,-1] = float(df.iloc[i,-3]) / avgCriRate * 100
-
-    if currentCriRate != df.iloc[i,-2]:
-        popInSaferCities +=  df.iloc[i]['Population']
+    # if currentCriRate != df.iloc[i,-2]:
+    #     popInSaferCities +=  df.iloc[i]['Population']
 df = df.drop(df.columns[range(4,14)], 1)
 df['Num'] = df["Violent\ncrime"]
 df = df.drop(["Population","Violent\ncrime","State"], 1)
-# df['Index'] = range(0,numOfCities) # add index for city(json file need index)
 outDict = df.set_index('City').T.to_dict()
 
 for key,value in outDict.items():
