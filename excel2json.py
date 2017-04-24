@@ -23,11 +23,21 @@ df.columns = newHeader
 df = df.drop(df.index[range(-10,0)]) # deleting comments in EXEL
 numOfCities = df.shape[0]
 
+removeNonAlpha = re.compile('[^a-zA-Z,\_]')
 for i in range(1,df.shape[0]):
     if type(df.iloc[i]["State"]) != str:
         df.iloc[i]["State"] = df.iloc[i-1]["State"] # fill state column for all cities
-        if re.search(r"[0-9]", df.iloc[i]["City"]) != None:
-            df.iloc[i]["City"] = df.iloc[i]["City"][:-1]
+        if 'Adams Village' in df.iloc[i]["City"]:
+            print(df.iloc[i]["City"])   
+            temp = re.findall(r"[0-9]", df.iloc[i]["City"])
+            print(temp)         
+
+        reObj = re.findall(r"[0-9]", df.iloc[i]["City"])
+        if reObj != None and reObj != []:
+            # print(df.iloc[i]["City"].dtype)
+            # print(df.iloc[i]["City"])            
+            # df.iloc[i]["City"] = df.iloc[i]["City"][:-1]
+            df.iloc[i]["City"] = removeNonAlpha.sub('', df.iloc[i]["City"])         
             # solve issue "Santa Barbara5"
     else:
         pass
@@ -45,7 +55,8 @@ def getCriRate(row):
 
 df['Crime Rate'] = df.apply(getCriRate, axis = 1)
 
-avgCriRate = df.ix[:,'Crime Rate'].mean()
+# avgCriRate = df.ix[:,'Crime Rate'].mean()
+avgCriRate = df.ix[:,'Population'].sum() / df.ix[:,'Violent\ncrime'].sum()
 USPOP = df.ix[:,"Population"].sum()
 
 df = df.sort_values(by=['Crime Rate','Population'], ascending = [True,False])
@@ -55,7 +66,8 @@ popInSaferCities = 0.0
 currentCriRate = 0.0
 
 # calculate crime ranking & index by pop
-for i in range(0,numOfCities): 
+for i in range(0,numOfCities):
+    df.iloc[i,1] = df.iloc[i,1] + ', ' + df.iloc[i,0] # City name, State name. Avoid key confliction
     # -1: Crime Index -2: Crime Ranking -3: Crime Rate
     # Crime Index: Crime Rate / mean Crime Rate
     # Crime Ranking: safter than % of people in U.S.
