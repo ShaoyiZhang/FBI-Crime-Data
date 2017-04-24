@@ -23,14 +23,14 @@ df.columns = newHeader
 df = df.drop(df.index[range(-10,0)]) # deleting comments in EXEL
 numOfCities = df.shape[0]
 
-removeNonAlpha = re.compile('[^a-zA-Z,\_]')
+removeNonAlpha = re.compile('[^a-zA-Z,\ ]')
 for i in range(1,df.shape[0]):
     if type(df.iloc[i]["State"]) != str:
         df.iloc[i]["State"] = df.iloc[i-1]["State"] # fill state column for all cities
-        if 'Adams Village' in df.iloc[i]["City"]:
-            print(df.iloc[i]["City"])   
+        if 'Village' in df.iloc[i]["City"]:
+            # print(df.iloc[i]["City"])   
             temp = re.findall(r"[0-9]", df.iloc[i]["City"])
-            print(temp)         
+            # print(temp)         
 
         reObj = re.findall(r"[0-9]", df.iloc[i]["City"])
         if reObj != None and reObj != []:
@@ -92,6 +92,9 @@ for key,value in outDict.items():
     value['Crime Index'] = int(value['Crime Index'])
     value['Crime Ranking'] = float("{0:.2f}".format(value['Crime Ranking']))
     # should try to avoid this loop
+keys = outDict.keys()
+for key in keys:
+    outDict[removeNonAlpha.sub('',key)] = outDict.pop(key)
 out = json.dumps(outDict, sort_keys=True,indent=4, separators=(',', ': '))
 with open('crimeByCity.json','w') as f:
     f.write(out)

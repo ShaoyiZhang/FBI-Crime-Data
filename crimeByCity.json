@@ -174,7 +174,7 @@
         "Index": 1276,
         "State": "PA"
     },
-    "Adams Village5, NY": {
+    "Adams Village, NY": {
         "Crime Index": 0,
         "Crime Ranking": 99.35,
         "Crime Rate": 0,
@@ -1070,6 +1070,13 @@
         "Index": 3345,
         "State": "OH"
     },
+    "American Canyon, CA": {
+        "Crime Index": 125,
+        "Crime Ranking": 58.27,
+        "Crime Rate": 280,
+        "Index": 6445,
+        "State": "CA"
+    },
     "American Falls, ID": {
         "Crime Index": 62,
         "Crime Ranking": 77.11,
@@ -1077,7 +1084,7 @@
         "Index": 4283,
         "State": "ID"
     },
-    "American Fork/Cedar Hills, UT": {
+    "American ForkCedar Hills, UT": {
         "Crime Index": 30,
         "Crime Ranking": 89.99,
         "Crime Rate": 69,
@@ -1090,13 +1097,6 @@
         "Crime Rate": 40,
         "Index": 1684,
         "State": "OH"
-    },
-    "AmericanCanyon, CA": {
-        "Crime Index": 125,
-        "Crime Ranking": 58.27,
-        "Crime Rate": 280,
-        "Index": 6445,
-        "State": "CA"
     },
     "Americus, GA": {
         "Crime Index": 434,
@@ -1287,6 +1287,13 @@
         "Index": 2400,
         "State": "NJ"
     },
+    "Andover Village, NY": {
+        "Crime Index": 0,
+        "Crime Ranking": 99.14,
+        "Crime Rate": 0,
+        "Index": 635,
+        "State": "NY"
+    },
     "Andover, KS": {
         "Crime Index": 70,
         "Crime Ranking": 74.07,
@@ -1300,13 +1307,6 @@
         "Crime Rate": 53,
         "Index": 2039,
         "State": "MA"
-    },
-    "AndoverVillage, NY": {
-        "Crime Index": 0,
-        "Crime Ranking": 99.14,
-        "Crime Rate": 0,
-        "Index": 635,
-        "State": "NY"
     },
     "Andrews, NC": {
         "Crime Index": 229,
@@ -1826,7 +1826,7 @@
         "Index": 3339,
         "State": "TX"
     },
-    "ArroyoGrande, CA": {
+    "Arroyo Grande, CA": {
         "Crime Index": 86,
         "Crime Ranking": 68.38,
         "Crime Rate": 193,
@@ -2162,7 +2162,7 @@
         "Index": 591,
         "State": "WI"
     },
-    "Athens-Clarke County, GA": {
+    "AthensClarke County, GA": {
         "Crime Index": 187,
         "Crime Ranking": 44.8,
         "Crime Rate": 417,
@@ -2701,7 +2701,7 @@
         "Index": 864,
         "State": "SD"
     },
-    "Avon-by-the-Sea, NJ": {
+    "AvonbytheSea, NJ": {
         "Crime Index": 0,
         "Crime Ranking": 99.33,
         "Crime Rate": 0,
@@ -2806,19 +2806,19 @@
         "Index": 1736,
         "State": "WA"
     },
+    "Bainbridge Village, NY": {
+        "Crime Index": 0,
+        "Crime Ranking": 99.23,
+        "Crime Rate": 0,
+        "Index": 489,
+        "State": "NY"
+    },
     "Bainbridge, GA": {
         "Crime Index": 190,
         "Crime Ranking": 43.98,
         "Crime Rate": 425,
         "Index": 7603,
         "State": "GA"
-    },
-    "BainbridgeVillage, NY": {
-        "Crime Index": 0,
-        "Crime Ranking": 99.23,
-        "Crime Rate": 0,
-        "Index": 489,
-        "State": "NY"
     },
     "Baird, TX": {
         "Crime Index": 30,
@@ -2883,6 +2883,13 @@
         "Index": 2121,
         "State": "PA"
     },
+    "Baldwin Park, CA": {
+        "Crime Index": 172,
+        "Crime Ranking": 47.83,
+        "Crime Rate": 385,
+        "Index": 7313,
+        "State": "CA"
+    },
     "Baldwin, GA": {
         "Crime Index": 80,
         "Crime Ranking": 70.32,
@@ -2896,13 +2903,6 @@
         "Crime Rate": 42,
         "Index": 1730,
         "State": "LA"
-    },
-    "BaldwinPark, CA": {
-        "Crime Index": 172,
-        "Crime Ranking": 47.83,
-        "Crime Rate": 385,
-        "Index": 7313,
-        "State": "CA"
     },
     "Baldwinsville Village, NY": {
         "Crime Index": 5,
@@ -3156,7 +3156,7 @@
         "Index": 8670,
         "State": "SC"
     },
-    "Baroda-Lake Township, MI": {
+    "BarodaLake Township, MI": {
         "Crime Index": 47,
         "Crime Ranking": 83.14,
         "Crime Rate": 105,
@@ -3338,7 +3338,7 @@
         "Index": 3835,
         "State": "OH"
     },
-    "Batesburg-Leesville, SC": {
+    "BatesburgLeesville, SC": {
         "Crime Index": 692,
         "Crime Ranking": 1.72,
         "Crime Rate": 1544,
@@ -3604,7 +3604,7 @@
         "Index": 1490,
         "State": "TN"
     },
-    "BearValley, CA": {
+    "Bear Valley, CA": {
         "Crime Index": 41,
         "Crime Ranking": 85.96,
         "Crime Rate": 92,
@@ -3870,14 +3870,14 @@
         "Index": 3842,
         "State": "KS"
     },
-    "Bel-Nor, MO": {
+    "BelNor, MO": {
         "Crime Index": 60,
         "Crime Ranking": 78.43,
         "Crime Rate": 134,
         "Index": 4156,
         "State": "MO"
     },
-    "Bel-Ridge, MO": {
+    "BelRidge, MO": {
         "Crime Index": 428,
         "Crime Ranking": 9.86,
         "Crime Rate": 955,
@@ -3926,7 +3926,7 @@
         "Index": 7387,
         "State": "MT"
     },
-    "Belgrade/Brooten, MN": {
+    "BelgradeBrooten, MN": {
         "Crime Index": 0,
         "Crime Ranking": 99.27,
         "Crime Rate": 0,
@@ -3954,18 +3954,18 @@
         "Index": 2557,
         "State": "PA"
     },
+    "Bell Gardens, CA": {
+        "Crime Index": 141,
+        "Crime Ranking": 55.51,
+        "Crime Rate": 315,
+        "Index": 6770,
+        "State": "CA"
+    },
     "Bell, CA": {
         "Crime Index": 272,
         "Crime Ranking": 26.65,
         "Crime Rate": 607,
         "Index": 8402,
-        "State": "CA"
-    },
-    "BellGardens, CA": {
-        "Crime Index": 141,
-        "Crime Ranking": 55.51,
-        "Crime Rate": 315,
-        "Index": 6770,
         "State": "CA"
     },
     "Bella Villa, MO": {
@@ -4731,7 +4731,7 @@
         "Index": 1971,
         "State": "MO"
     },
-    "Berrien Springs-Oronoko Township, MI": {
+    "Berrien SpringsOronoko Township, MI": {
         "Crime Index": 83,
         "Crime Ranking": 69.48,
         "Crime Rate": 186,
@@ -4962,6 +4962,13 @@
         "Index": 7500,
         "State": "ND"
     },
+    "Beverly Hills, CA": {
+        "Crime Index": 126,
+        "Crime Ranking": 58.16,
+        "Crime Rate": 282,
+        "Index": 6462,
+        "State": "CA"
+    },
     "Beverly Hills, MI": {
         "Crime Index": 4,
         "Crime Ranking": 98.78,
@@ -4996,13 +5003,6 @@
         "Crime Rate": 510,
         "Index": 8048,
         "State": "NJ"
-    },
-    "BeverlyHills, CA": {
-        "Crime Index": 126,
-        "Crime Ranking": 58.16,
-        "Crime Rate": 282,
-        "Index": 6462,
-        "State": "CA"
     },
     "Bexley, OH": {
         "Crime Index": 52,
@@ -6425,7 +6425,7 @@
         "Index": 3436,
         "State": "VT"
     },
-    "Brandon-Fairwater, WI": {
+    "BrandonFairwater, WI": {
         "Crime Index": 0,
         "Crime Ranking": 99.2,
         "Crime Rate": 0,
@@ -7552,6 +7552,13 @@
         "Index": 2767,
         "State": "CA"
     },
+    "Buena Park, CA": {
+        "Crime Index": 126,
+        "Crime Ranking": 58.07,
+        "Crime Rate": 283,
+        "Index": 6470,
+        "State": "CA"
+    },
     "Buena Vista Township, MI": {
         "Crime Index": 396,
         "Crime Ranking": 13.76,
@@ -7579,13 +7586,6 @@
         "Crime Rate": 260,
         "Index": 6211,
         "State": "NJ"
-    },
-    "BuenaPark, CA": {
-        "Crime Index": 126,
-        "Crime Ranking": 58.07,
-        "Crime Rate": 283,
-        "Index": 6470,
-        "State": "CA"
     },
     "Buffalo Grove, IL": {
         "Crime Index": 1,
@@ -8238,6 +8238,13 @@
         "Index": 3759,
         "State": "TX"
     },
+    "Caledonia Village, NY": {
+        "Crime Index": 0,
+        "Crime Ranking": 99.41,
+        "Crime Rate": 0,
+        "Index": 267,
+        "State": "NY"
+    },
     "Caledonia, MN": {
         "Crime Index": 64,
         "Crime Ranking": 76.47,
@@ -8251,13 +8258,6 @@
         "Crime Rate": 101,
         "Index": 3350,
         "State": "WI"
-    },
-    "CaledoniaVillage, NY": {
-        "Crime Index": 0,
-        "Crime Ranking": 99.41,
-        "Crime Rate": 0,
-        "Index": 267,
-        "State": "NY"
     },
     "Calera, OK": {
         "Crime Index": 438,
@@ -8560,7 +8560,7 @@
         "Index": 6637,
         "State": "GA"
     },
-    "CamillusTownandVillage, NY": {
+    "Camillus Town and Village, NY": {
         "Crime Index": 49,
         "Crime Ranking": 82.22,
         "Crime Rate": 111,
@@ -8658,7 +8658,7 @@
         "Index": 5476,
         "State": "NH"
     },
-    "CanajoharieVillage, NY": {
+    "Canajoharie Village, NY": {
         "Crime Index": 61,
         "Crime Ranking": 77.3,
         "Crime Rate": 138,
@@ -9120,19 +9120,19 @@
         "Index": 6097,
         "State": "PA"
     },
-    "Carney's Point Township, NJ": {
-        "Crime Index": 62,
-        "Crime Ranking": 77.29,
-        "Crime Rate": 139,
-        "Index": 4262,
-        "State": "NJ"
-    },
     "Carney, OK": {
         "Crime Index": 0,
         "Crime Ranking": 99.07,
         "Crime Rate": 0,
         "Index": 825,
         "State": "OK"
+    },
+    "Carneys Point Township, NJ": {
+        "Crime Index": 62,
+        "Crime Ranking": 77.29,
+        "Crime Rate": 139,
+        "Index": 4262,
+        "State": "NJ"
     },
     "Caro, MI": {
         "Crime Index": 208,
@@ -9484,7 +9484,7 @@
         "Index": 4245,
         "State": "WY"
     },
-    "Caspian-Gaastra, MI": {
+    "CaspianGaastra, MI": {
         "Crime Index": 74,
         "Crime Ranking": 72.5,
         "Crime Rate": 167,
@@ -10268,7 +10268,7 @@
         "Index": 5465,
         "State": "MI"
     },
-    "Charlotte-Mecklenburg, NC": {
+    "CharlotteMecklenburg, NC": {
         "Crime Index": 303,
         "Crime Ranking": 20.92,
         "Crime Rate": 677,
@@ -11024,7 +11024,7 @@
         "Index": 7710,
         "State": "CA"
     },
-    "CityofAngels, CA": {
+    "City of Angels, CA": {
         "Crime Index": 203,
         "Crime Ranking": 41.99,
         "Crime Rate": 454,
@@ -11962,7 +11962,7 @@
         "Index": 6627,
         "State": "VA"
     },
-    "Coeur d'Alene, ID": {
+    "Coeur dAlene, ID": {
         "Crime Index": 181,
         "Crime Ranking": 45.67,
         "Crime Rate": 405,
@@ -12011,12 +12011,19 @@
         "Index": 8305,
         "State": "KS"
     },
-    "Colby-Abbotsford, WI": {
+    "ColbyAbbotsford, WI": {
         "Crime Index": 0,
         "Crime Ranking": 99.64,
         "Crime Rate": 0,
         "Index": 102,
         "State": "WI"
+    },
+    "Colchester Town, NY": {
+        "Crime Index": 43,
+        "Crime Ranking": 84.79,
+        "Crime Rate": 97,
+        "Index": 3266,
+        "State": "NY"
     },
     "Colchester, IL": {
         "Crime Index": 0,
@@ -12032,13 +12039,6 @@
         "Index": 3557,
         "State": "VT"
     },
-    "ColchesterTown, NY": {
-        "Crime Index": 43,
-        "Crime Ranking": 84.79,
-        "Crime Rate": 97,
-        "Index": 3266,
-        "State": "NY"
-    },
     "Cold Spring, KY": {
         "Crime Index": 50,
         "Crime Ranking": 82.03,
@@ -12046,7 +12046,7 @@
         "Index": 3641,
         "State": "KY"
     },
-    "Cold Spring/Richmond, MN": {
+    "Cold SpringRichmond, MN": {
         "Crime Index": 24,
         "Crime Ranking": 92.75,
         "Crime Rate": 54,
@@ -12956,7 +12956,7 @@
         "Index": 2552,
         "State": "PA"
     },
-    "CornwallonHudsonVillage, NY": {
+    "CornwallonHudson Village, NY": {
         "Crime Index": 14,
         "Crime Ranking": 96.2,
         "Crime Rate": 33,
@@ -13054,7 +13054,7 @@
         "Index": 410,
         "State": "WA"
     },
-    "CostaMesa, CA": {
+    "Costa Mesa, CA": {
         "Crime Index": 152,
         "Crime Ranking": 52.42,
         "Crime Rate": 340,
@@ -13474,6 +13474,13 @@
         "Index": 6699,
         "State": "AL"
     },
+    "Crescent City, CA": {
+        "Crime Index": 278,
+        "Crime Ranking": 26.06,
+        "Crime Rate": 621,
+        "Index": 8452,
+        "State": "CA"
+    },
     "Crescent City, FL": {
         "Crime Index": 174,
         "Crime Ranking": 47.29,
@@ -13494,13 +13501,6 @@
         "Crime Rate": 130,
         "Index": 4064,
         "State": "OK"
-    },
-    "CrescentCity, CA": {
-        "Crime Index": 278,
-        "Crime Ranking": 26.06,
-        "Crime Rate": 621,
-        "Index": 8452,
-        "State": "CA"
     },
     "Cresco, IA": {
         "Crime Index": 11,
@@ -13565,19 +13565,19 @@
         "Index": 3331,
         "State": "MO"
     },
+    "Crete, , NE": {
+        "Crime Index": 95,
+        "Crime Ranking": 66.3,
+        "Crime Rate": 212,
+        "Index": 5527,
+        "State": "NE"
+    },
     "Crete, IL": {
         "Crime Index": 76,
         "Crime Ranking": 71.97,
         "Crime Rate": 170,
         "Index": 4878,
         "State": "IL"
-    },
-    "Crete,, NE": {
-        "Crime Index": 95,
-        "Crime Ranking": 66.3,
-        "Crime Rate": 212,
-        "Index": 5527,
-        "State": "NE"
     },
     "Creve Coeur, IL": {
         "Crime Index": 495,
@@ -13705,7 +13705,7 @@
         "Index": 7628,
         "State": "MI"
     },
-    "Croton-on-Hudson Village, NY": {
+    "CrotononHudson Village, NY": {
         "Crime Index": 21,
         "Crime Ranking": 93.96,
         "Crime Rate": 48,
@@ -14006,7 +14006,7 @@
         "Index": 3652,
         "State": "CA"
     },
-    "D'Iberville, MS": {
+    "DIberville, MS": {
         "Crime Index": 19,
         "Crime Ranking": 94.66,
         "Crime Rate": 44,
@@ -14447,7 +14447,7 @@
         "Index": 5081,
         "State": "KY"
     },
-    "Dawson/Boyd, MN": {
+    "DawsonBoyd, MN": {
         "Crime Index": 83,
         "Crime Ranking": 69.28,
         "Crime Rate": 187,
@@ -15469,7 +15469,7 @@
         "Index": 7822,
         "State": "MO"
     },
-    "DobbsFerryVillage, NY": {
+    "Dobbs Ferry Village, NY": {
         "Crime Index": 35,
         "Crime Ranking": 88.05,
         "Crime Rate": 80,
@@ -15707,7 +15707,7 @@
         "Index": 7938,
         "State": "TN"
     },
-    "Dover-Foxcroft, ME": {
+    "DoverFoxcroft, ME": {
         "Crime Index": 111,
         "Crime Ranking": 61.5,
         "Crime Rate": 248,
@@ -16316,7 +16316,7 @@
         "Index": 6382,
         "State": "IL"
     },
-    "East Aurora-Aurora Town, NY": {
+    "East AuroraAurora Town, NY": {
         "Crime Index": 9,
         "Crime Ranking": 97.74,
         "Crime Rate": 21,
@@ -16659,6 +16659,13 @@
         "Index": 4062,
         "State": "OH"
     },
+    "East Palo Alto, CA": {
+        "Crime Index": 271,
+        "Crime Ranking": 26.71,
+        "Crime Rate": 606,
+        "Index": 8397,
+        "State": "CA"
+    },
     "East Pennsboro Township, PA": {
         "Crime Index": 22,
         "Crime Ranking": 93.55,
@@ -16729,7 +16736,7 @@
         "Index": 5071,
         "State": "PA"
     },
-    "East St. Louis, IL": {
+    "East St Louis, IL": {
         "Crime Index": 1498,
         "Crime Ranking": 0.04,
         "Crime Rate": 3340,
@@ -16798,13 +16805,6 @@
         "Crime Rate": 139,
         "Index": 4264,
         "State": "CT"
-    },
-    "EastPaloAlto, CA": {
-        "Crime Index": 271,
-        "Crime Ranking": 26.71,
-        "Crime Rate": 606,
-        "Index": 8397,
-        "State": "CA"
     },
     "Eastampton Township, NJ": {
         "Crime Index": 29,
@@ -17324,6 +17324,13 @@
         "Index": 7044,
         "State": "TX"
     },
+    "El Centro, CA": {
+        "Crime Index": 166,
+        "Crime Ranking": 49.57,
+        "Crime Rate": 372,
+        "Index": 7220,
+        "State": "CA"
+    },
     "El Cerrito, CA": {
         "Crime Index": 174,
         "Crime Ranking": 47.35,
@@ -17345,12 +17352,26 @@
         "Index": 8998,
         "State": "AR"
     },
+    "El Dorado, KS": {
+        "Crime Index": 170,
+        "Crime Ranking": 48.07,
+        "Crime Rate": 381,
+        "Index": 7294,
+        "State": "KS"
+    },
     "El Mirage, AZ": {
         "Crime Index": 106,
         "Crime Ranking": 63.11,
         "Crime Rate": 238,
         "Index": 5903,
         "State": "AZ"
+    },
+    "El Monte, CA": {
+        "Crime Index": 152,
+        "Crime Ranking": 52.32,
+        "Crime Rate": 340,
+        "Index": 6998,
+        "State": "CA"
     },
     "El Paso, IL": {
         "Crime Index": 96,
@@ -17380,28 +17401,7 @@
         "Index": 5746,
         "State": "OK"
     },
-    "ElCentro, CA": {
-        "Crime Index": 166,
-        "Crime Ranking": 49.57,
-        "Crime Rate": 372,
-        "Index": 7220,
-        "State": "CA"
-    },
-    "ElDorado, KS": {
-        "Crime Index": 170,
-        "Crime Ranking": 48.07,
-        "Crime Rate": 381,
-        "Index": 7294,
-        "State": "KS"
-    },
-    "ElMonte, CA": {
-        "Crime Index": 152,
-        "Crime Ranking": 52.32,
-        "Crime Rate": 340,
-        "Index": 6998,
-        "State": "CA"
-    },
-    "ElSegundo, CA": {
+    "El Segundo, CA": {
         "Crime Index": 106,
         "Crime Ranking": 63.08,
         "Crime Rate": 238,
@@ -19158,7 +19158,7 @@
         "Index": 4364,
         "State": "VA"
     },
-    "FallsCity,, NE": {
+    "Falls City, , NE": {
         "Crime Index": 31,
         "Crime Ranking": 89.68,
         "Crime Rate": 71,
@@ -19403,19 +19403,19 @@
         "Index": 5966,
         "State": "WV"
     },
+    "Federal Heights, CO": {
+        "Crime Index": 224,
+        "Crime Ranking": 39.14,
+        "Crime Rate": 501,
+        "Index": 8008,
+        "State": "CO"
+    },
     "Federal Way, WA": {
         "Crime Index": 174,
         "Crime Ranking": 47.45,
         "Crime Rate": 389,
         "Index": 7354,
         "State": "WA"
-    },
-    "FederalHeights, CO": {
-        "Crime Index": 224,
-        "Crime Ranking": 39.14,
-        "Crime Rate": 501,
-        "Index": 8008,
-        "State": "CO"
     },
     "Federalsburg, MD": {
         "Crime Index": 253,
@@ -19746,7 +19746,7 @@
         "Index": 1059,
         "State": "MO"
     },
-    "Fleming-Neon, KY": {
+    "FlemingNeon, KY": {
         "Crime Index": 0,
         "Crime Ranking": 99.08,
         "Crime Rate": 0,
@@ -20285,6 +20285,13 @@
         "Index": 4893,
         "State": "OK"
     },
+    "Fort Jones, CA": {
+        "Crime Index": 131,
+        "Crime Ranking": 57.36,
+        "Crime Rate": 294,
+        "Index": 6564,
+        "State": "CA"
+    },
     "Fort Kent, ME": {
         "Crime Index": 33,
         "Crime Ranking": 89.01,
@@ -20425,13 +20432,6 @@
         "Index": 2956,
         "State": "KY"
     },
-    "FortJones, CA": {
-        "Crime Index": 131,
-        "Crime Ranking": 57.36,
-        "Crime Rate": 294,
-        "Index": 6564,
-        "State": "CA"
-    },
     "Fortuna, CA": {
         "Crime Index": 135,
         "Crime Ranking": 56.46,
@@ -20446,6 +20446,13 @@
         "Index": 100,
         "State": "PA"
     },
+    "Foster City, CA": {
+        "Crime Index": 26,
+        "Crime Ranking": 91.67,
+        "Crime Rate": 60,
+        "Index": 2252,
+        "State": "CA"
+    },
     "Foster Township, McKean County, PA": {
         "Crime Index": 52,
         "Crime Ranking": 81.2,
@@ -20459,13 +20466,6 @@
         "Crime Rate": 42,
         "Index": 1727,
         "State": "RI"
-    },
-    "FosterCity, CA": {
-        "Crime Index": 26,
-        "Crime Ranking": 91.67,
-        "Crime Rate": 60,
-        "Index": 2252,
-        "State": "CA"
     },
     "Fostoria, OH": {
         "Crime Index": 44,
@@ -20502,6 +20502,13 @@
         "Index": 6763,
         "State": "SC"
     },
+    "Fountain Valley, CA": {
+        "Crime Index": 51,
+        "Crime Ranking": 81.73,
+        "Crime Rate": 114,
+        "Index": 3696,
+        "State": "CA"
+    },
     "Fountain, CO": {
         "Crime Index": 164,
         "Crime Ranking": 49.93,
@@ -20515,13 +20522,6 @@
         "Crime Rate": 0,
         "Index": 955,
         "State": "MN"
-    },
-    "FountainValley, CA": {
-        "Crime Index": 51,
-        "Crime Ranking": 81.73,
-        "Crime Rate": 114,
-        "Index": 3696,
-        "State": "CA"
     },
     "Fowler, CA": {
         "Crime Index": 335,
@@ -20838,7 +20838,7 @@
         "Index": 4194,
         "State": "MI"
     },
-    "Fraser/Winter Park, CO": {
+    "FraserWinter Park, CO": {
         "Crime Index": 21,
         "Crime Ranking": 94.13,
         "Crime Rate": 47,
@@ -21524,19 +21524,19 @@
         "Index": 393,
         "State": "MO"
     },
+    "Garden Grove, CA": {
+        "Crime Index": 128,
+        "Crime Ranking": 57.9,
+        "Crime Rate": 286,
+        "Index": 6489,
+        "State": "CA"
+    },
     "Garden Ridge, TX": {
         "Crime Index": 22,
         "Crime Ranking": 93.3,
         "Crime Rate": 51,
         "Index": 1985,
         "State": "TX"
-    },
-    "GardenGrove, CA": {
-        "Crime Index": 128,
-        "Crime Ranking": 57.9,
-        "Crime Rate": 286,
-        "Index": 6489,
-        "State": "CA"
     },
     "Gardena, CA": {
         "Crime Index": 222,
@@ -21804,7 +21804,7 @@
         "Index": 5650,
         "State": "NY"
     },
-    "Geneva-on-the-Lake, OH": {
+    "GenevaontheLake, OH": {
         "Crime Index": 148,
         "Crime Ranking": 53.34,
         "Crime Rate": 330,
@@ -23190,7 +23190,7 @@
         "Index": 70,
         "State": "PA"
     },
-    "GranvilleVillage, NY": {
+    "Granville Village, NY": {
         "Crime Index": 109,
         "Crime Ranking": 61.92,
         "Crime Rate": 244,
@@ -23232,7 +23232,7 @@
         "Index": 8191,
         "State": "MI"
     },
-    "Graymoor-Devondale, KY": {
+    "GraymoorDevondale, KY": {
         "Crime Index": 30,
         "Crime Ranking": 90.28,
         "Crime Rate": 67,
@@ -23680,19 +23680,19 @@
         "Index": 61,
         "State": "NJ"
     },
+    "Greenwich Village, NY": {
+        "Crime Index": 0,
+        "Crime Ranking": 99.32,
+        "Crime Rate": 0,
+        "Index": 365,
+        "State": "NY"
+    },
     "Greenwich, CT": {
         "Crime Index": 7,
         "Crime Ranking": 98.17,
         "Crime Rate": 17,
         "Index": 1197,
         "State": "CT"
-    },
-    "GreenwichVillage, NY": {
-        "Crime Index": 0,
-        "Crime Ranking": 99.32,
-        "Crime Rate": 0,
-        "Index": 365,
-        "State": "NY"
     },
     "Greenwood Lake Village, NY": {
         "Crime Index": 43,
@@ -23960,7 +23960,7 @@
         "Index": 2520,
         "State": "OH"
     },
-    "GroverBeach, CA": {
+    "Grover Beach, CA": {
         "Crime Index": 108,
         "Crime Ranking": 62.72,
         "Crime Rate": 242,
@@ -24625,6 +24625,13 @@
         "Index": 7780,
         "State": "AL"
     },
+    "Hancock Village, NY": {
+        "Crime Index": 45,
+        "Crime Ranking": 84.14,
+        "Crime Rate": 101,
+        "Index": 3364,
+        "State": "NY"
+    },
     "Hancock, MI": {
         "Crime Index": 88,
         "Crime Ranking": 67.95,
@@ -24645,13 +24652,6 @@
         "Crime Rate": 61,
         "Index": 2285,
         "State": "NH"
-    },
-    "HancockVillage, NY": {
-        "Crime Index": 45,
-        "Crime Ranking": 84.14,
-        "Crime Rate": 101,
-        "Index": 3364,
-        "State": "NY"
     },
     "Hanford, CA": {
         "Crime Index": 255,
@@ -25199,7 +25199,7 @@
         "Index": 6057,
         "State": "NE"
     },
-    "Hastings-on-Hudson Village, NY": {
+    "HastingsonHudson Village, NY": {
         "Crime Index": 27,
         "Crime Ranking": 91.23,
         "Crime Rate": 62,
@@ -25647,7 +25647,7 @@
         "Index": 8493,
         "State": "MT"
     },
-    "Helena-West Helena, AR": {
+    "HelenaWest Helena, AR": {
         "Crime Index": 670,
         "Crime Ranking": 2.06,
         "Crime Rate": 1495,
@@ -25724,19 +25724,19 @@
         "Index": 4847,
         "State": "TX"
     },
+    "Hempstead Village, NY": {
+        "Crime Index": 323,
+        "Crime Ranking": 17.94,
+        "Crime Rate": 720,
+        "Index": 8686,
+        "State": "NY"
+    },
     "Hempstead, TX": {
         "Crime Index": 769,
         "Crime Ranking": 1.16,
         "Crime Rate": 1714,
         "Index": 9325,
         "State": "TX"
-    },
-    "HempsteadVillage, NY": {
-        "Crime Index": 323,
-        "Crime Ranking": 17.94,
-        "Crime Rate": 720,
-        "Index": 8686,
-        "State": "NY"
     },
     "Henderson, KY": {
         "Crime Index": 137,
@@ -25899,19 +25899,19 @@
         "Index": 4698,
         "State": "PA"
     },
+    "Hermosa Beach, CA": {
+        "Crime Index": 98,
+        "Crime Ranking": 65.29,
+        "Crime Rate": 220,
+        "Index": 5647,
+        "State": "CA"
+    },
     "Hermosa, SD": {
         "Crime Index": 0,
         "Crime Ranking": 99.03,
         "Crime Rate": 0,
         "Index": 966,
         "State": "SD"
-    },
-    "HermosaBeach, CA": {
-        "Crime Index": 98,
-        "Crime Ranking": 65.29,
-        "Crime Rate": 220,
-        "Index": 5647,
-        "State": "CA"
     },
     "Herrin, IL": {
         "Crime Index": 100,
@@ -25962,7 +25962,7 @@
         "Index": 3397,
         "State": "IL"
     },
-    "Hi-Nella, NJ": {
+    "HiNella, NJ": {
         "Crime Index": 314,
         "Crime Ranking": 19.24,
         "Crime Rate": 702,
@@ -26480,7 +26480,7 @@
         "Index": 5345,
         "State": "TX"
     },
-    "Ho-Ho-Kus, NJ": {
+    "HoHoKus, NJ": {
         "Crime Index": 10,
         "Crime Ranking": 97.47,
         "Crime Rate": 23,
@@ -26501,7 +26501,7 @@
         "Index": 7277,
         "State": "OK"
     },
-    "Hobart-Lawrence, WI": {
+    "HobartLawrence, WI": {
         "Crime Index": 6,
         "Crime Ranking": 98.3,
         "Crime Rate": 15,
@@ -27327,7 +27327,7 @@
         "Index": 6049,
         "State": "MI"
     },
-    "Howey-in-the-Hills, FL": {
+    "HoweyintheHills, FL": {
         "Crime Index": 0,
         "Crime Ranking": 99.18,
         "Crime Rate": 0,
@@ -27880,6 +27880,13 @@
         "Index": 2943,
         "State": "IL"
     },
+    "Independence Town, NY": {
+        "Crime Index": 0,
+        "Crime Ranking": 99.19,
+        "Crime Rate": 0,
+        "Index": 552,
+        "State": "NY"
+    },
     "Independence Township, Beaver County, PA": {
         "Crime Index": 17,
         "Crime Ranking": 95.16,
@@ -27956,13 +27963,6 @@
         "Crime Rate": 0,
         "Index": 478,
         "State": "WI"
-    },
-    "IndependenceTown, NY": {
-        "Crime Index": 0,
-        "Crime Ranking": 99.19,
-        "Crime Rate": 0,
-        "Index": 552,
-        "State": "NY"
     },
     "Indialantic, FL": {
         "Crime Index": 111,
@@ -30673,6 +30673,13 @@
         "Index": 1580,
         "State": "CA"
     },
+    "La Habra, CA": {
+        "Crime Index": 74,
+        "Crime Ranking": 72.7,
+        "Crime Rate": 166,
+        "Index": 4801,
+        "State": "CA"
+    },
     "La Harpe, IL": {
         "Crime Index": 37,
         "Crime Ranking": 87.63,
@@ -30707,6 +30714,13 @@
         "Crime Rate": 0,
         "Index": 577,
         "State": "MO"
+    },
+    "La Palma, CA": {
+        "Crime Index": 36,
+        "Crime Ranking": 87.98,
+        "Crime Rate": 81,
+        "Index": 2847,
+        "State": "CA"
     },
     "La Plata, MD": {
         "Crime Index": 173,
@@ -30778,11 +30792,25 @@
         "Index": 4340,
         "State": "UT"
     },
+    "La Verne, CA": {
+        "Crime Index": 93,
+        "Crime Ranking": 66.83,
+        "Crime Rate": 208,
+        "Index": 5451,
+        "State": "CA"
+    },
     "La Vernia, TX": {
         "Crime Index": 0,
         "Crime Ranking": 99.21,
         "Crime Rate": 0,
         "Index": 522,
+        "State": "TX"
+    },
+    "La Villa, TX": {
+        "Crime Index": 106,
+        "Crime Ranking": 63.14,
+        "Crime Rate": 237,
+        "Index": 5895,
         "State": "TX"
     },
     "La Vista, NE": {
@@ -30798,34 +30826,6 @@
         "Crime Rate": 467,
         "Index": 7828,
         "State": "GA"
-    },
-    "LaHabra, CA": {
-        "Crime Index": 74,
-        "Crime Ranking": 72.7,
-        "Crime Rate": 166,
-        "Index": 4801,
-        "State": "CA"
-    },
-    "LaPalma, CA": {
-        "Crime Index": 36,
-        "Crime Ranking": 87.98,
-        "Crime Rate": 81,
-        "Index": 2847,
-        "State": "CA"
-    },
-    "LaVerne, CA": {
-        "Crime Index": 93,
-        "Crime Ranking": 66.83,
-        "Crime Rate": 208,
-        "Index": 5451,
-        "State": "CA"
-    },
-    "LaVilla, TX": {
-        "Crime Index": 106,
-        "Crime Ranking": 63.14,
-        "Crime Rate": 237,
-        "Index": 5895,
-        "State": "TX"
     },
     "Lacey Township, NJ": {
         "Crime Index": 20,
@@ -30862,7 +30862,7 @@
         "Index": 7182,
         "State": "NH"
     },
-    "Lacy-Lakeview, TX": {
+    "LacyLakeview, TX": {
         "Crime Index": 289,
         "Crime Ranking": 22.92,
         "Crime Rate": 645,
@@ -30953,6 +30953,13 @@
         "Index": 6511,
         "State": "TX"
     },
+    "Laguna Beach, CA": {
+        "Crime Index": 144,
+        "Crime Ranking": 54.5,
+        "Crime Rate": 323,
+        "Index": 6846,
+        "State": "CA"
+    },
     "Laguna Hills, CA": {
         "Crime Index": 61,
         "Crime Ranking": 77.81,
@@ -30974,14 +30981,7 @@
         "Index": 4584,
         "State": "TX"
     },
-    "LagunaBeach, CA": {
-        "Crime Index": 144,
-        "Crime Ranking": 54.5,
-        "Crime Rate": 323,
-        "Index": 6846,
-        "State": "CA"
-    },
-    "LagunaWoods, CA": {
+    "Laguna Woods, CA": {
         "Crime Index": 13,
         "Crime Ranking": 96.67,
         "Crime Rate": 30,
@@ -31240,6 +31240,13 @@
         "Index": 775,
         "State": "GA"
     },
+    "Lake Placid Village, NY": {
+        "Crime Index": 54,
+        "Crime Ranking": 80.59,
+        "Crime Rate": 122,
+        "Index": 3864,
+        "State": "NY"
+    },
     "Lake Placid, FL": {
         "Crime Index": 83,
         "Crime Ranking": 69.35,
@@ -31261,6 +31268,13 @@
         "Index": 3666,
         "State": "NC"
     },
+    "Lake Shastina, CA": {
+        "Crime Index": 17,
+        "Crime Ranking": 95.36,
+        "Crime Rate": 39,
+        "Index": 1651,
+        "State": "CA"
+    },
     "Lake Shore, MN": {
         "Crime Index": 0,
         "Crime Ranking": 99.15,
@@ -31268,7 +31282,7 @@
         "Index": 630,
         "State": "MN"
     },
-    "Lake St. Louis, MO": {
+    "Lake St Louis, MO": {
         "Crime Index": 20,
         "Crime Ranking": 94.34,
         "Crime Rate": 46,
@@ -31380,20 +31394,6 @@
         "Index": 2414,
         "State": "IL"
     },
-    "LakePlacidVillage, NY": {
-        "Crime Index": 54,
-        "Crime Ranking": 80.59,
-        "Crime Rate": 122,
-        "Index": 3864,
-        "State": "NY"
-    },
-    "LakeShastina, CA": {
-        "Crime Index": 17,
-        "Crime Ranking": 95.36,
-        "Crime Rate": 39,
-        "Index": 1651,
-        "State": "CA"
-    },
     "Lakefield, MN": {
         "Crime Index": 0,
         "Crime Ranking": 99.31,
@@ -31450,7 +31450,7 @@
         "Index": 7949,
         "State": "MO"
     },
-    "Lakeside Park-Crestview Hills, KY": {
+    "Lakeside ParkCrestview Hills, KY": {
         "Crime Index": 36,
         "Crime Ranking": 87.92,
         "Crime Rate": 81,
@@ -31548,7 +31548,7 @@
         "Index": 8622,
         "State": "WA"
     },
-    "Lakewood-Busti, NY": {
+    "LakewoodBusti, NY": {
         "Crime Index": 5,
         "Crime Ranking": 98.44,
         "Crime Rate": 13,
@@ -31940,7 +31940,7 @@
         "Index": 7677,
         "State": "MN"
     },
-    "Lauderdale-by-the-Sea, FL": {
+    "LauderdalebytheSea, FL": {
         "Crime Index": 117,
         "Crime Ranking": 60.04,
         "Crime Rate": 262,
@@ -32360,13 +32360,6 @@
         "Index": 670,
         "State": "KS"
     },
-    "Lee's Summit, MO": {
-        "Crime Index": 46,
-        "Crime Ranking": 83.3,
-        "Crime Rate": 104,
-        "Index": 3452,
-        "State": "MO"
-    },
     "Lee, MA": {
         "Crime Index": 130,
         "Crime Ranking": 57.61,
@@ -32387,6 +32380,13 @@
         "Crime Rate": 567,
         "Index": 8274,
         "State": "AL"
+    },
+    "Lees Summit, MO": {
+        "Crime Index": 46,
+        "Crime Ranking": 83.3,
+        "Crime Rate": 104,
+        "Index": 3452,
+        "State": "MO"
     },
     "Leesburg, AL": {
         "Crime Index": 219,
@@ -33900,6 +33900,13 @@
         "Index": 7078,
         "State": "SC"
     },
+    "Los Alamitos, CA": {
+        "Crime Index": 68,
+        "Crime Ranking": 74.75,
+        "Crime Rate": 152,
+        "Index": 4547,
+        "State": "CA"
+    },
     "Los Altos Hills, CA": {
         "Crime Index": 4,
         "Crime Ranking": 98.63,
@@ -33948,13 +33955,6 @@
         "Crime Rate": 865,
         "Index": 8904,
         "State": "NM"
-    },
-    "LosAlamitos, CA": {
-        "Crime Index": 68,
-        "Crime Ranking": 74.75,
-        "Crime Rate": 152,
-        "Index": 4547,
-        "State": "CA"
     },
     "Loudon, NH": {
         "Crime Index": 41,
@@ -35090,7 +35090,7 @@
         "Index": 4268,
         "State": "VT"
     },
-    "Manchester-by-the-Sea, MA": {
+    "ManchesterbytheSea, MA": {
         "Crime Index": 41,
         "Crime Ranking": 85.81,
         "Crime Rate": 92,
@@ -35132,6 +35132,13 @@
         "Index": 3371,
         "State": "OK"
     },
+    "Manhattan Beach, CA": {
+        "Crime Index": 87,
+        "Crime Ranking": 68.34,
+        "Crime Rate": 194,
+        "Index": 5282,
+        "State": "CA"
+    },
     "Manhattan, IL": {
         "Crime Index": 36,
         "Crime Ranking": 87.95,
@@ -35145,13 +35152,6 @@
         "Crime Rate": 252,
         "Index": 6083,
         "State": "MT"
-    },
-    "ManhattanBeach, CA": {
-        "Crime Index": 87,
-        "Crime Ranking": 68.34,
-        "Crime Rate": 194,
-        "Index": 5282,
-        "State": "CA"
     },
     "Manheim Township, PA": {
         "Crime Index": 26,
@@ -35713,6 +35713,13 @@
         "Index": 1821,
         "State": "NJ"
     },
+    "Marlborough Town, NY": {
+        "Crime Index": 51,
+        "Crime Ranking": 81.7,
+        "Crime Rate": 115,
+        "Index": 3699,
+        "State": "NY"
+    },
     "Marlborough Township, PA": {
         "Crime Index": 26,
         "Crime Ranking": 91.64,
@@ -35733,13 +35740,6 @@
         "Crime Rate": 143,
         "Index": 4338,
         "State": "NH"
-    },
-    "MarlboroughTown, NY": {
-        "Crime Index": 51,
-        "Crime Ranking": 81.7,
-        "Crime Rate": 115,
-        "Index": 3699,
-        "State": "NY"
     },
     "Marlette, MI": {
         "Crime Index": 150,
@@ -36910,7 +36910,7 @@
         "Index": 4348,
         "State": "CA"
     },
-    "MenloPark, CA": {
+    "Menlo Park, CA": {
         "Crime Index": 42,
         "Crime Ranking": 85.4,
         "Crime Rate": 95,
@@ -36952,7 +36952,7 @@
         "Index": 3962,
         "State": "OH"
     },
-    "Mentor-on-the-Lake, OH": {
+    "MentorontheLake, OH": {
         "Crime Index": 48,
         "Crime Ranking": 82.68,
         "Crime Rate": 108,
@@ -37960,7 +37960,7 @@
         "Index": 5693,
         "State": "WV"
     },
-    "Milton-Freewater, OR": {
+    "MiltonFreewater, OR": {
         "Crime Index": 126,
         "Crime Ranking": 58.17,
         "Crime Rate": 281,
@@ -38548,6 +38548,13 @@
         "Index": 443,
         "State": "WI"
     },
+    "Monterey Park, CA": {
+        "Crime Index": 74,
+        "Crime Ranking": 72.58,
+        "Crime Rate": 166,
+        "Index": 4812,
+        "State": "CA"
+    },
     "Monterey, CA": {
         "Crime Index": 214,
         "Crime Ranking": 40.54,
@@ -38561,13 +38568,6 @@
         "Crime Rate": 314,
         "Index": 6760,
         "State": "TN"
-    },
-    "MontereyPark, CA": {
-        "Crime Index": 74,
-        "Crime Ranking": 72.58,
-        "Crime Rate": 166,
-        "Index": 4812,
-        "State": "CA"
     },
     "Montesano, WA": {
         "Crime Index": 34,
@@ -38982,7 +38982,7 @@
         "Index": 6330,
         "State": "LA"
     },
-    "MorganHill, CA": {
+    "Morgan Hill, CA": {
         "Crime Index": 73,
         "Crime Ranking": 73.2,
         "Crime Rate": 164,
@@ -39094,7 +39094,7 @@
         "Index": 2497,
         "State": "OK"
     },
-    "Morris-Cooper Regional, PA": {
+    "MorrisCooper Regional, PA": {
         "Crime Index": 48,
         "Crime Ranking": 82.84,
         "Crime Rate": 107,
@@ -39633,6 +39633,13 @@
         "Index": 8081,
         "State": "MD"
     },
+    "Mount Shasta, CA": {
+        "Crime Index": 54,
+        "Crime Ranking": 80.47,
+        "Crime Rate": 122,
+        "Index": 3873,
+        "State": "CA"
+    },
     "Mount Sterling, KY": {
         "Crime Index": 98,
         "Crime Ranking": 65.22,
@@ -39709,13 +39716,6 @@
         "Crime Rate": 135,
         "Index": 4180,
         "State": "IL"
-    },
-    "MountShasta, CA": {
-        "Crime Index": 54,
-        "Crime Ranking": 80.47,
-        "Crime Rate": 122,
-        "Index": 3873,
-        "State": "CA"
     },
     "Mountain Brook, AL": {
         "Crime Index": 30,
@@ -40543,19 +40543,19 @@
         "Index": 3160,
         "State": "PA"
     },
+    "Nevada City, CA": {
+        "Crime Index": 207,
+        "Crime Ranking": 41.39,
+        "Crime Rate": 463,
+        "Index": 7805,
+        "State": "CA"
+    },
     "Nevada, MO": {
         "Crime Index": 455,
         "Crime Ranking": 7.58,
         "Crime Rate": 1015,
         "Index": 9065,
         "State": "MO"
-    },
-    "NevadaCity, CA": {
-        "Crime Index": 207,
-        "Crime Ranking": 41.39,
-        "Crime Rate": 463,
-        "Index": 7805,
-        "State": "CA"
     },
     "Neville Township, PA": {
         "Crime Index": 41,
@@ -41180,7 +41180,7 @@
         "Index": 5430,
         "State": "MI"
     },
-    "Newberg-Dundee, OR": {
+    "NewbergDundee, OR": {
         "Crime Index": 41,
         "Crime Ranking": 85.95,
         "Crime Rate": 92,
@@ -41880,6 +41880,13 @@
         "Index": 8478,
         "State": "PA"
     },
+    "North Bend, OR": {
+        "Crime Index": 75,
+        "Crime Ranking": 72.45,
+        "Crime Rate": 168,
+        "Index": 4829,
+        "State": "OR"
+    },
     "North Bend, WA": {
         "Crime Index": 32,
         "Crime Ranking": 89.24,
@@ -42342,7 +42349,7 @@
         "Index": 2166,
         "State": "RI"
     },
-    "North St. Paul, MN": {
+    "North St Paul, MN": {
         "Crime Index": 43,
         "Crime Ranking": 84.99,
         "Crime Rate": 96,
@@ -42418,13 +42425,6 @@
         "Crime Rate": 804,
         "Index": 8831,
         "State": "SC"
-    },
-    "NorthBend, OR": {
-        "Crime Index": 75,
-        "Crime Ranking": 72.45,
-        "Crime Rate": 168,
-        "Index": 4829,
-        "State": "OR"
     },
     "Northampton Township, PA": {
         "Crime Index": 7,
@@ -42881,28 +42881,28 @@
         "Index": 4649,
         "State": "OR"
     },
-    "O'Fallon, IL": {
+    "OFallon, IL": {
         "Crime Index": 55,
         "Crime Ranking": 80.37,
         "Crime Rate": 123,
         "Index": 3895,
         "State": "IL"
     },
-    "O'Fallon, MO": {
+    "OFallon, MO": {
         "Crime Index": 28,
         "Crime Ranking": 90.82,
         "Crime Rate": 64,
         "Index": 2381,
         "State": "MO"
     },
-    "O'Hara Township, PA": {
+    "OHara Township, PA": {
         "Crime Index": 4,
         "Crime Ranking": 98.63,
         "Crime Rate": 11,
         "Index": 1122,
         "State": "PA"
     },
-    "O'Neill, NE": {
+    "ONeill, NE": {
         "Crime Index": 24,
         "Crime Ranking": 92.78,
         "Crime Rate": 54,
@@ -43861,7 +43861,7 @@
         "Index": 5495,
         "State": "OR"
     },
-    "Ontwa Township-Edwardsburg, MI": {
+    "Ontwa TownshipEdwardsburg, MI": {
         "Crime Index": 179,
         "Crime Ranking": 45.81,
         "Crime Rate": 401,
@@ -44001,7 +44001,7 @@
         "Index": 2056,
         "State": "NY"
     },
-    "Ord,, NE": {
+    "Ord, , NE": {
         "Crime Index": 107,
         "Crime Ranking": 62.97,
         "Crime Rate": 240,
@@ -44960,7 +44960,7 @@
         "Index": 6572,
         "State": "PA"
     },
-    "PaloAlto, CA": {
+    "Palo Alto, CA": {
         "Crime Index": 44,
         "Crime Ranking": 84.33,
         "Crime Rate": 100,
@@ -45289,7 +45289,7 @@
         "Index": 4259,
         "State": "UT"
     },
-    "Parsippany-Troy Hills Township, NJ": {
+    "ParsippanyTroy Hills Township, NJ": {
         "Crime Index": 28,
         "Crime Ranking": 91.06,
         "Crime Rate": 63,
@@ -45338,7 +45338,7 @@
         "Index": 5727,
         "State": "WA"
     },
-    "PasoRobles, CA": {
+    "Paso Robles, CA": {
         "Crime Index": 87,
         "Crime Ranking": 68.15,
         "Crime Rate": 195,
@@ -46360,7 +46360,7 @@
         "Index": 1537,
         "State": "OH"
     },
-    "PiermontVillage, NY": {
+    "Piermont Village, NY": {
         "Crime Index": 17,
         "Crime Ranking": 95.45,
         "Crime Rate": 38,
@@ -46598,7 +46598,7 @@
         "Index": 8092,
         "State": "FL"
     },
-    "Pinetop-Lakeside, AZ": {
+    "PinetopLakeside, AZ": {
         "Crime Index": 518,
         "Crime Ranking": 4.48,
         "Crime Rate": 1156,
@@ -46668,7 +46668,7 @@
         "Index": 2582,
         "State": "NJ"
     },
-    "PismoBeach, CA": {
+    "Pismo Beach, CA": {
         "Crime Index": 112,
         "Crime Ranking": 61.41,
         "Crime Rate": 250,
@@ -47480,6 +47480,13 @@
         "Index": 523,
         "State": "NY"
     },
+    "Port Chester Village, NY": {
+        "Crime Index": 113,
+        "Crime Ranking": 61.24,
+        "Crime Rate": 252,
+        "Index": 6090,
+        "State": "NY"
+    },
     "Port Clinton, OH": {
         "Crime Index": 141,
         "Crime Ranking": 55.39,
@@ -47564,14 +47571,14 @@
         "Index": 6435,
         "State": "SC"
     },
-    "Port St. Joe, FL": {
+    "Port St Joe, FL": {
         "Crime Index": 236,
         "Crime Ranking": 36.94,
         "Crime Rate": 528,
         "Index": 8123,
         "State": "FL"
     },
-    "Port St. Lucie, FL": {
+    "Port St Lucie, FL": {
         "Crime Index": 65,
         "Crime Ranking": 75.82,
         "Crime Rate": 147,
@@ -47619,13 +47626,6 @@
         "Crime Rate": 118,
         "Index": 3785,
         "State": "GA"
-    },
-    "PortChesterVillage, NY": {
-        "Crime Index": 113,
-        "Crime Ranking": 61.24,
-        "Crime Rate": 252,
-        "Index": 6090,
-        "State": "NY"
     },
     "Portage, IN": {
         "Crime Index": 63,
@@ -49202,7 +49202,7 @@
         "Index": 1440,
         "State": "TX"
     },
-    "RensselaerCity, NY": {
+    "Rensselaer City, NY": {
         "Crime Index": 94,
         "Crime Ranking": 66.63,
         "Crime Rate": 210,
@@ -49664,6 +49664,13 @@
         "Index": 1674,
         "State": "NJ"
     },
+    "Rio Dell, CA": {
+        "Crime Index": 132,
+        "Crime Ranking": 57.19,
+        "Crime Rate": 296,
+        "Index": 6583,
+        "State": "CA"
+    },
     "Rio Grande City, TX": {
         "Crime Index": 71,
         "Crime Ranking": 73.74,
@@ -49697,13 +49704,6 @@
         "Crime Ranking": 47.65,
         "Crime Rate": 387,
         "Index": 7333,
-        "State": "CA"
-    },
-    "RioDell, CA": {
-        "Crime Index": 132,
-        "Crime Ranking": 57.19,
-        "Crime Rate": 296,
-        "Index": 6583,
         "State": "CA"
     },
     "Ripley, TN": {
@@ -50784,7 +50784,7 @@
         "Index": 3650,
         "State": "WI"
     },
-    "RotterdamTown, NY": {
+    "Rotterdam Town, NY": {
         "Crime Index": 42,
         "Crime Ranking": 85.47,
         "Crime Rate": 94,
@@ -51589,11 +51589,25 @@
         "Index": 5818,
         "State": "CA"
     },
+    "San Fernando, CA": {
+        "Crime Index": 169,
+        "Crime Ranking": 48.66,
+        "Crime Rate": 378,
+        "Index": 7266,
+        "State": "CA"
+    },
     "San Francisco, CA": {
         "Crime Index": 348,
         "Crime Ranking": 16.23,
         "Crime Rate": 776,
         "Index": 8786,
+        "State": "CA"
+    },
+    "San Gabriel, CA": {
+        "Crime Index": 97,
+        "Crime Ranking": 65.49,
+        "Crime Rate": 218,
+        "Index": 5624,
         "State": "CA"
     },
     "San Jacinto, CA": {
@@ -51659,6 +51673,13 @@
         "Index": 6990,
         "State": "TX"
     },
+    "San Marino, CA": {
+        "Crime Index": 56,
+        "Crime Ranking": 79.94,
+        "Crime Rate": 126,
+        "Index": 3956,
+        "State": "CA"
+    },
     "San Mateo, CA": {
         "Crime Index": 114,
         "Crime Ranking": 60.95,
@@ -51700,27 +51721,6 @@
         "Crime Rate": 0,
         "Index": 1041,
         "State": "NM"
-    },
-    "SanFernando, CA": {
-        "Crime Index": 169,
-        "Crime Ranking": 48.66,
-        "Crime Rate": 378,
-        "Index": 7266,
-        "State": "CA"
-    },
-    "SanGabriel, CA": {
-        "Crime Index": 97,
-        "Crime Ranking": 65.49,
-        "Crime Rate": 218,
-        "Index": 5624,
-        "State": "CA"
-    },
-    "SanMarino, CA": {
-        "Crime Index": 56,
-        "Crime Ranking": 79.94,
-        "Crime Rate": 126,
-        "Index": 3956,
-        "State": "CA"
     },
     "Sanbornton, NH": {
         "Crime Index": 14,
@@ -51869,12 +51869,26 @@
         "Index": 8070,
         "State": "TX"
     },
+    "Santa Ana, CA": {
+        "Crime Index": 216,
+        "Crime Ranking": 40.41,
+        "Crime Rate": 482,
+        "Index": 7901,
+        "State": "CA"
+    },
     "Santa Anna, TX": {
         "Crime Index": 0,
         "Crime Ranking": 99.15,
         "Crime Rate": 0,
         "Index": 622,
         "State": "TX"
+    },
+    "Santa Barbara, CA": {
+        "Crime Index": 177,
+        "Crime Ranking": 46.85,
+        "Crime Rate": 395,
+        "Index": 7394,
+        "State": "CA"
     },
     "Santa Clara, CA": {
         "Crime Index": 56,
@@ -51890,7 +51904,7 @@
         "Index": 5936,
         "State": "NM"
     },
-    "Santa Clara/Ivins, UT": {
+    "Santa ClaraIvins, UT": {
         "Crime Index": 8,
         "Crime Ranking": 97.86,
         "Crime Rate": 20,
@@ -51902,6 +51916,20 @@
         "Crime Ranking": 72.91,
         "Crime Rate": 166,
         "Index": 4796,
+        "State": "CA"
+    },
+    "Santa Cruz, CA": {
+        "Crime Index": 349,
+        "Crime Ranking": 15.8,
+        "Crime Rate": 778,
+        "Index": 8789,
+        "State": "CA"
+    },
+    "Santa Fe Springs, CA": {
+        "Crime Index": 213,
+        "Crime Ranking": 40.62,
+        "Crime Rate": 475,
+        "Index": 7872,
         "State": "CA"
     },
     "Santa Fe, NM": {
@@ -51932,6 +51960,20 @@
         "Index": 7864,
         "State": "CA"
     },
+    "Santa Paula, CA": {
+        "Crime Index": 139,
+        "Crime Ranking": 55.75,
+        "Crime Rate": 312,
+        "Index": 6743,
+        "State": "CA"
+    },
+    "Santa Rosa, CA": {
+        "Crime Index": 154,
+        "Crime Ranking": 52.08,
+        "Crime Rate": 344,
+        "Index": 7034,
+        "State": "CA"
+    },
     "Santa Rosa, NM": {
         "Crime Index": 182,
         "Crime Ranking": 45.57,
@@ -51939,49 +51981,7 @@
         "Index": 7474,
         "State": "NM"
     },
-    "SantaAna, CA": {
-        "Crime Index": 216,
-        "Crime Ranking": 40.41,
-        "Crime Rate": 482,
-        "Index": 7901,
-        "State": "CA"
-    },
-    "SantaBarbara, CA": {
-        "Crime Index": 177,
-        "Crime Ranking": 46.85,
-        "Crime Rate": 395,
-        "Index": 7394,
-        "State": "CA"
-    },
-    "SantaCruz, CA": {
-        "Crime Index": 349,
-        "Crime Ranking": 15.8,
-        "Crime Rate": 778,
-        "Index": 8789,
-        "State": "CA"
-    },
-    "SantaFeSprings, CA": {
-        "Crime Index": 213,
-        "Crime Ranking": 40.62,
-        "Crime Rate": 475,
-        "Index": 7872,
-        "State": "CA"
-    },
-    "SantaPaula, CA": {
-        "Crime Index": 139,
-        "Crime Ranking": 55.75,
-        "Crime Rate": 312,
-        "Index": 6743,
-        "State": "CA"
-    },
-    "SantaRosa, CA": {
-        "Crime Index": 154,
-        "Crime Ranking": 52.08,
-        "Crime Rate": 344,
-        "Index": 7034,
-        "State": "CA"
-    },
-    "Santaquin/Genola, UT": {
+    "SantaquinGenola, UT": {
         "Crime Index": 7,
         "Crime Ranking": 98.19,
         "Crime Rate": 17,
@@ -52100,7 +52100,7 @@
         "Index": 5972,
         "State": "AL"
     },
-    "Saugatuck-Douglas, MI": {
+    "SaugatuckDouglas, MI": {
         "Crime Index": 200,
         "Crime Ranking": 42.19,
         "Crime Rate": 446,
@@ -52156,7 +52156,7 @@
         "Index": 1268,
         "State": "WI"
     },
-    "Sault Ste. Marie, MI": {
+    "Sault Ste Marie, MI": {
         "Crime Index": 74,
         "Crime Ranking": 72.99,
         "Crime Rate": 165,
@@ -52198,7 +52198,7 @@
         "Index": 8902,
         "State": "TN"
     },
-    "Savannah-Chatham Metropolitan, GA": {
+    "SavannahChatham Metropolitan, GA": {
         "Crime Index": 218,
         "Crime Ranking": 39.8,
         "Crime Rate": 486,
@@ -52233,7 +52233,7 @@
         "Index": 2130,
         "State": "ME"
     },
-    "ScarsdaleVillage, NY": {
+    "Scarsdale Village, NY": {
         "Crime Index": 7,
         "Crime Ranking": 98.21,
         "Crime Rate": 16,
@@ -52380,7 +52380,7 @@
         "Index": 3870,
         "State": "LA"
     },
-    "ScottsValley, CA": {
+    "Scotts Valley, CA": {
         "Crime Index": 82,
         "Crime Ranking": 69.84,
         "Crime Rate": 184,
@@ -52527,7 +52527,7 @@
         "Index": 3560,
         "State": "TX"
     },
-    "SealBeach, CA": {
+    "Seal Beach, CA": {
         "Crime Index": 43,
         "Crime Ranking": 84.99,
         "Crime Rate": 96,
@@ -52828,7 +52828,7 @@
         "Index": 7782,
         "State": "TN"
     },
-    "Sewall's Point, FL": {
+    "Sewalls Point, FL": {
         "Crime Index": 21,
         "Crime Ranking": 94.24,
         "Crime Rate": 47,
@@ -53647,12 +53647,19 @@
         "Index": 7038,
         "State": "IL"
     },
-    "SimiValley, CA": {
+    "Simi Valley, CA": {
         "Crime Index": 61,
         "Crime Ranking": 78.05,
         "Crime Rate": 136,
         "Index": 4197,
         "State": "CA"
+    },
+    "Simpsonville, , SC": {
+        "Crime Index": 124,
+        "Crime Ranking": 58.59,
+        "Crime Rate": 277,
+        "Index": 6404,
+        "State": "SC"
     },
     "Simpsonville, KY": {
         "Crime Index": 49,
@@ -53660,13 +53667,6 @@
         "Crime Rate": 111,
         "Index": 3612,
         "State": "KY"
-    },
-    "Simpsonville,, SC": {
-        "Crime Index": 124,
-        "Crime Ranking": 58.59,
-        "Crime Rate": 277,
-        "Index": 6404,
-        "State": "SC"
     },
     "Simsbury, CT": {
         "Crime Index": 5,
@@ -53983,7 +53983,7 @@
         "Index": 6099,
         "State": "NC"
     },
-    "Snowflake-Taylor, AZ": {
+    "SnowflakeTaylor, AZ": {
         "Crime Index": 127,
         "Crime Ranking": 57.97,
         "Crime Rate": 285,
@@ -54046,7 +54046,7 @@
         "Index": 3354,
         "State": "ID"
     },
-    "Soddy-Daisy, TN": {
+    "SoddyDaisy, TN": {
         "Crime Index": 108,
         "Crime Ranking": 62.84,
         "Crime Rate": 241,
@@ -54438,6 +54438,13 @@
         "Index": 8130,
         "State": "TN"
     },
+    "South Gate, CA": {
+        "Crime Index": 259,
+        "Crime Ranking": 34.08,
+        "Crime Rate": 579,
+        "Index": 8313,
+        "State": "CA"
+    },
     "South Glens Falls Village, NY": {
         "Crime Index": 174,
         "Crime Ranking": 47.46,
@@ -54564,6 +54571,13 @@
         "Index": 3892,
         "State": "MN"
     },
+    "South Lake Tahoe, CA": {
+        "Crime Index": 135,
+        "Crime Ranking": 56.67,
+        "Crime Rate": 301,
+        "Index": 6640,
+        "State": "CA"
+    },
     "South Lebanon Township, PA": {
         "Crime Index": 27,
         "Crime Ranking": 91.32,
@@ -54640,6 +54654,13 @@
         "Crime Rate": 14,
         "Index": 1167,
         "State": "PA"
+    },
+    "South Pasadena, CA": {
+        "Crime Index": 51,
+        "Crime Ranking": 81.84,
+        "Crime Rate": 114,
+        "Index": 3675,
+        "State": "CA"
     },
     "South Pasadena, FL": {
         "Crime Index": 106,
@@ -54732,7 +54753,14 @@
         "Index": 3067,
         "State": "KY"
     },
-    "South St. Paul, MN": {
+    "South Sioux City, , NE": {
+        "Crime Index": 60,
+        "Crime Ranking": 78.44,
+        "Crime Rate": 134,
+        "Index": 4154,
+        "State": "NE"
+    },
+    "South St Paul, MN": {
         "Crime Index": 220,
         "Crime Ranking": 39.49,
         "Crime Rate": 491,
@@ -54794,34 +54822,6 @@
         "Crime Rate": 0,
         "Index": 303,
         "State": "OH"
-    },
-    "SouthGate, CA": {
-        "Crime Index": 259,
-        "Crime Ranking": 34.08,
-        "Crime Rate": 579,
-        "Index": 8313,
-        "State": "CA"
-    },
-    "SouthLakeTahoe, CA": {
-        "Crime Index": 135,
-        "Crime Ranking": 56.67,
-        "Crime Rate": 301,
-        "Index": 6640,
-        "State": "CA"
-    },
-    "SouthPasadena, CA": {
-        "Crime Index": 51,
-        "Crime Ranking": 81.84,
-        "Crime Rate": 114,
-        "Index": 3675,
-        "State": "CA"
-    },
-    "SouthSiouxCity,, NE": {
-        "Crime Index": 60,
-        "Crime Ranking": 78.44,
-        "Crime Rate": 134,
-        "Index": 4154,
-        "State": "NE"
     },
     "Southampton Village, NY": {
         "Crime Index": 41,
@@ -55572,434 +55572,434 @@
         "Index": 4843,
         "State": "TX"
     },
-    "St. Albans, VT": {
+    "St Albans, VT": {
         "Crime Index": 222,
         "Crime Ranking": 39.27,
         "Crime Rate": 496,
         "Index": 7981,
         "State": "VT"
     },
-    "St. Albans, WV": {
+    "St Albans, WV": {
         "Crime Index": 178,
         "Crime Ranking": 45.87,
         "Crime Rate": 398,
         "Index": 7419,
         "State": "WV"
     },
-    "St. Ann, MO": {
+    "St Ann, MO": {
         "Crime Index": 280,
         "Crime Ranking": 25.92,
         "Crime Rate": 625,
         "Index": 8470,
         "State": "MO"
     },
-    "St. Anne, IL": {
+    "St Anne, IL": {
         "Crime Index": 109,
         "Crime Ranking": 61.81,
         "Crime Rate": 245,
         "Index": 6006,
         "State": "IL"
     },
-    "St. Anthony, ID": {
+    "St Anthony, ID": {
         "Crime Index": 91,
         "Crime Ranking": 67.3,
         "Crime Rate": 203,
         "Index": 5410,
         "State": "ID"
     },
-    "St. Anthony, MN": {
+    "St Anthony, MN": {
         "Crime Index": 24,
         "Crime Ranking": 92.8,
         "Crime Rate": 54,
         "Index": 2083,
         "State": "MN"
     },
-    "St. Augustine Beach, FL": {
+    "St Augustine Beach, FL": {
         "Crime Index": 26,
         "Crime Ranking": 91.96,
         "Crime Rate": 58,
         "Index": 2204,
         "State": "FL"
     },
-    "St. Augustine, FL": {
+    "St Augustine, FL": {
         "Crime Index": 350,
         "Crime Ranking": 15.75,
         "Crime Rate": 782,
         "Index": 8796,
         "State": "FL"
     },
-    "St. Charles, AR": {
+    "St Charles, AR": {
         "Crime Index": 0,
         "Crime Ranking": 99.02,
         "Crime Rate": 0,
         "Index": 1032,
         "State": "AR"
     },
-    "St. Charles, IL": {
+    "St Charles, IL": {
         "Crime Index": 29,
         "Crime Ranking": 90.69,
         "Crime Rate": 65,
         "Index": 2408,
         "State": "IL"
     },
-    "St. Charles, MI": {
+    "St Charles, MI": {
         "Crime Index": 45,
         "Crime Ranking": 83.94,
         "Crime Rate": 101,
         "Index": 3378,
         "State": "MI"
     },
-    "St. Charles, MN": {
+    "St Charles, MN": {
         "Crime Index": 24,
         "Crime Ranking": 92.9,
         "Crime Rate": 54,
         "Index": 2072,
         "State": "MN"
     },
-    "St. Charles, MO": {
+    "St Charles, MO": {
         "Crime Index": 80,
         "Crime Ranking": 70.4,
         "Crime Rate": 180,
         "Index": 5047,
         "State": "MO"
     },
-    "St. Clair Shores, MI": {
+    "St Clair Shores, MI": {
         "Crime Index": 96,
         "Crime Ranking": 66.08,
         "Crime Rate": 214,
         "Index": 5547,
         "State": "MI"
     },
-    "St. Clair Township, OH": {
+    "St Clair Township, OH": {
         "Crime Index": 5,
         "Crime Ranking": 98.53,
         "Crime Rate": 12,
         "Index": 1138,
         "State": "OH"
     },
-    "St. Clair Township, PA": {
+    "St Clair Township, PA": {
         "Crime Index": 0,
         "Crime Ranking": 99.27,
         "Crime Rate": 0,
         "Index": 433,
         "State": "PA"
     },
-    "St. Clair, MI": {
+    "St Clair, MI": {
         "Crime Index": 108,
         "Crime Ranking": 62.83,
         "Crime Rate": 241,
         "Index": 5948,
         "State": "MI"
     },
-    "St. Clair, MO": {
+    "St Clair, MO": {
         "Crime Index": 229,
         "Crime Ranking": 38.59,
         "Crime Rate": 511,
         "Index": 8054,
         "State": "MO"
     },
-    "St. Cloud, FL": {
+    "St Cloud, FL": {
         "Crime Index": 113,
         "Crime Ranking": 61.11,
         "Crime Rate": 254,
         "Index": 6118,
         "State": "FL"
     },
-    "St. Cloud, MN": {
+    "St Cloud, MN": {
         "Crime Index": 166,
         "Crime Ranking": 49.0,
         "Crime Rate": 372,
         "Index": 7225,
         "State": "MN"
     },
-    "St. Croix Falls, WI": {
+    "St Croix Falls, WI": {
         "Crime Index": 0,
         "Crime Ranking": 99.4,
         "Crime Rate": 0,
         "Index": 283,
         "State": "WI"
     },
-    "St. Elmo, IL": {
+    "St Elmo, IL": {
         "Crime Index": 96,
         "Crime Ranking": 66.09,
         "Crime Rate": 214,
         "Index": 5542,
         "State": "IL"
     },
-    "St. Francis, MN": {
+    "St Francis, MN": {
         "Crime Index": 42,
         "Crime Ranking": 85.54,
         "Crime Rate": 94,
         "Index": 3177,
         "State": "MN"
     },
-    "St. Francis, WI": {
+    "St Francis, WI": {
         "Crime Index": 74,
         "Crime Ranking": 72.55,
         "Crime Rate": 166,
         "Index": 4813,
         "State": "WI"
     },
-    "St. George, SC": {
+    "St George, SC": {
         "Crime Index": 624,
         "Crime Ranking": 2.81,
         "Crime Rate": 1393,
         "Index": 9252,
         "State": "SC"
     },
-    "St. George, UT": {
+    "St George, UT": {
         "Crime Index": 65,
         "Crime Ranking": 76.29,
         "Crime Rate": 145,
         "Index": 4380,
         "State": "UT"
     },
-    "St. Helena, CA": {
+    "St Helena, CA": {
         "Crime Index": 66,
         "Crime Ranking": 75.51,
         "Crime Rate": 149,
         "Index": 4473,
         "State": "CA"
     },
-    "St. Ignace, MI": {
+    "St Ignace, MI": {
         "Crime Index": 55,
         "Crime Ranking": 80.28,
         "Crime Rate": 124,
         "Index": 3915,
         "State": "MI"
     },
-    "St. Ignatius, MT": {
+    "St Ignatius, MT": {
         "Crime Index": 104,
         "Crime Ranking": 63.49,
         "Crime Rate": 234,
         "Index": 5853,
         "State": "MT"
     },
-    "St. Jacob, IL": {
+    "St Jacob, IL": {
         "Crime Index": 77,
         "Crime Ranking": 71.65,
         "Crime Rate": 172,
         "Index": 4917,
         "State": "IL"
     },
-    "St. James, MN": {
+    "St James, MN": {
         "Crime Index": 109,
         "Crime Ranking": 61.96,
         "Crime Rate": 244,
         "Index": 5992,
         "State": "MN"
     },
-    "St. James, MO": {
+    "St James, MO": {
         "Crime Index": 238,
         "Crime Ranking": 36.78,
         "Crime Rate": 531,
         "Index": 8139,
         "State": "MO"
     },
-    "St. John, IN": {
+    "St John, IN": {
         "Crime Index": 8,
         "Crime Ranking": 98.06,
         "Crime Rate": 18,
         "Index": 1209,
         "State": "IN"
     },
-    "St. John, MO": {
+    "St John, MO": {
         "Crime Index": 173,
         "Crime Ranking": 47.74,
         "Crime Rate": 386,
         "Index": 7319,
         "State": "MO"
     },
-    "St. Johns, MI": {
+    "St Johns, MI": {
         "Crime Index": 33,
         "Crime Ranking": 89.02,
         "Crime Rate": 75,
         "Index": 2660,
         "State": "MI"
     },
-    "St. Johnsbury, VT": {
+    "St Johnsbury, VT": {
         "Crime Index": 53,
         "Crime Ranking": 81.01,
         "Crime Rate": 119,
         "Index": 3807,
         "State": "VT"
     },
-    "St. Johnsville Village, NY": {
+    "St Johnsville Village, NY": {
         "Crime Index": 133,
         "Crime Ranking": 57.04,
         "Crime Rate": 298,
         "Index": 6607,
         "State": "NY"
     },
-    "St. Joseph Township, MI": {
+    "St Joseph Township, MI": {
         "Crime Index": 67,
         "Crime Ranking": 74.9,
         "Crime Rate": 151,
         "Index": 4527,
         "State": "MI"
     },
-    "St. Joseph, MI": {
+    "St Joseph, MI": {
         "Crime Index": 75,
         "Crime Ranking": 72.44,
         "Crime Rate": 168,
         "Index": 4830,
         "State": "MI"
     },
-    "St. Joseph, MN": {
+    "St Joseph, MN": {
         "Crime Index": 0,
         "Crime Ranking": 99.8,
         "Crime Rate": 0,
         "Index": 42,
         "State": "MN"
     },
-    "St. Joseph, MO": {
+    "St Joseph, MO": {
         "Crime Index": 231,
         "Crime Ranking": 38.23,
         "Crime Rate": 515,
         "Index": 8073,
         "State": "MO"
     },
-    "St. Joseph, TN": {
+    "St Joseph, TN": {
         "Crime Index": 0,
         "Crime Ranking": 99.1,
         "Crime Rate": 0,
         "Index": 746,
         "State": "TN"
     },
-    "St. Louis Park, MN": {
+    "St Louis Park, MN": {
         "Crime Index": 78,
         "Crime Ranking": 70.96,
         "Crime Rate": 176,
         "Index": 4982,
         "State": "MN"
     },
-    "St. Louis, MI": {
+    "St Louis, MI": {
         "Crime Index": 99,
         "Crime Ranking": 64.88,
         "Crime Rate": 222,
         "Index": 5683,
         "State": "MI"
     },
-    "St. Louis, MO": {
+    "St Louis, MO": {
         "Crime Index": 815,
         "Crime Ranking": 0.36,
         "Crime Rate": 1817,
         "Index": 9341,
         "State": "MO"
     },
-    "St. Maries, ID": {
+    "St Maries, ID": {
         "Crime Index": 134,
         "Crime Ranking": 56.82,
         "Crime Rate": 299,
         "Index": 6624,
         "State": "ID"
     },
-    "St. Marys City, PA": {
+    "St Marys City, PA": {
         "Crime Index": 21,
         "Crime Ranking": 94.24,
         "Crime Rate": 47,
         "Index": 1843,
         "State": "PA"
     },
-    "St. Marys, KS": {
+    "St Marys, KS": {
         "Crime Index": 66,
         "Crime Ranking": 75.39,
         "Crime Rate": 149,
         "Index": 4481,
         "State": "KS"
     },
-    "St. Marys, MO": {
+    "St Marys, MO": {
         "Crime Index": 0,
         "Crime Ranking": 99.03,
         "Crime Rate": 0,
         "Index": 989,
         "State": "MO"
     },
-    "St. Matthews, KY": {
+    "St Matthews, KY": {
         "Crime Index": 104,
         "Crime Ranking": 63.69,
         "Crime Rate": 233,
         "Index": 5832,
         "State": "KY"
     },
-    "St. Michaels, MD": {
+    "St Michaels, MD": {
         "Crime Index": 298,
         "Crime Ranking": 21.69,
         "Crime Rate": 666,
         "Index": 8564,
         "State": "MD"
     },
-    "St. Paris, OH": {
+    "St Paris, OH": {
         "Crime Index": 0,
         "Crime Ranking": 99.39,
         "Crime Rate": 0,
         "Index": 292,
         "State": "OH"
     },
-    "St. Paul Park, MN": {
+    "St Paul Park, MN": {
         "Crime Index": 74,
         "Crime Ranking": 72.54,
         "Crime Rate": 167,
         "Index": 4814,
         "State": "MN"
     },
-    "St. Paul, MN": {
+    "St Paul, MN": {
         "Crime Index": 315,
         "Crime Ranking": 19.23,
         "Crime Rate": 703,
         "Index": 8646,
         "State": "MN"
     },
-    "St. Paul, VA": {
+    "St Paul, VA": {
         "Crime Index": 342,
         "Crime Ranking": 16.81,
         "Crime Rate": 763,
         "Index": 8761,
         "State": "VA"
     },
-    "St. Pauls, NC": {
+    "St Pauls, NC": {
         "Crime Index": 147,
         "Crime Ranking": 53.88,
         "Crime Rate": 329,
         "Index": 6904,
         "State": "NC"
     },
-    "St. Pete Beach, FL": {
+    "St Pete Beach, FL": {
         "Crime Index": 230,
         "Crime Ranking": 38.47,
         "Crime Rate": 513,
         "Index": 8067,
         "State": "FL"
     },
-    "St. Peter, MN": {
+    "St Peter, MN": {
         "Crime Index": 72,
         "Crime Ranking": 73.42,
         "Crime Rate": 162,
         "Index": 4720,
         "State": "MN"
     },
-    "St. Peters, MO": {
+    "St Peters, MO": {
         "Crime Index": 77,
         "Crime Ranking": 71.85,
         "Crime Rate": 172,
         "Index": 4906,
         "State": "MO"
     },
-    "St. Petersburg, FL": {
+    "St Petersburg, FL": {
         "Crime Index": 332,
         "Crime Ranking": 17.27,
         "Crime Rate": 741,
         "Index": 8725,
         "State": "FL"
     },
-    "St. Robert, MO": {
+    "St Robert, MO": {
         "Crime Index": 182,
         "Crime Ranking": 45.6,
         "Crime Rate": 406,
         "Index": 7471,
         "State": "MO"
     },
-    "St. Stephen, SC": {
+    "St Stephen, SC": {
         "Crime Index": 174,
         "Crime Ranking": 47.45,
         "Crime Rate": 389,
@@ -56237,7 +56237,7 @@
         "Index": 6281,
         "State": "OR"
     },
-    "Ste. Genevieve, MO": {
+    "Ste Genevieve, MO": {
         "Crime Index": 169,
         "Crime Ranking": 48.64,
         "Crime Rate": 378,
@@ -57203,7 +57203,7 @@
         "Index": 7604,
         "State": "OR"
     },
-    "SutterCreek, CA": {
+    "Sutter Creek, CA": {
         "Crime Index": 218,
         "Crime Ranking": 39.62,
         "Crime Rate": 488,
@@ -58743,7 +58743,7 @@
         "Index": 707,
         "State": "TN"
     },
-    "Tri-City, MN": {
+    "TriCity, MN": {
         "Crime Index": 30,
         "Crime Ranking": 89.9,
         "Crime Rate": 69,
@@ -58932,7 +58932,7 @@
         "Index": 5372,
         "State": "OK"
     },
-    "TuckahoeVillage, NY": {
+    "Tuckahoe Village, NY": {
         "Crime Index": 6,
         "Crime Ranking": 98.32,
         "Crime Rate": 15,
@@ -59674,7 +59674,7 @@
         "Index": 2940,
         "State": "PA"
     },
-    "Upper St. Clair Township, PA": {
+    "Upper St Clair Township, PA": {
         "Crime Index": 11,
         "Crime Ranking": 97.22,
         "Crime Rate": 25,
@@ -60094,6 +60094,13 @@
         "Index": 1207,
         "State": "PA"
     },
+    "Vernon Village, NY": {
+        "Crime Index": 0,
+        "Crime Ranking": 99.18,
+        "Crime Rate": 0,
+        "Index": 564,
+        "State": "NY"
+    },
     "Vernon, CA": {
         "Crime Index": 10923,
         "Crime Ranking": 0.02,
@@ -60121,13 +60128,6 @@
         "Crime Rate": 345,
         "Index": 7040,
         "State": "TX"
-    },
-    "VernonVillage, NY": {
-        "Crime Index": 0,
-        "Crime Ranking": 99.18,
-        "Crime Rate": 0,
-        "Index": 564,
-        "State": "NY"
     },
     "Vernonia, OR": {
         "Crime Index": 83,
@@ -61522,6 +61522,13 @@
         "Index": 6130,
         "State": "WI"
     },
+    "Waterville Township, OH": {
+        "Crime Index": 26,
+        "Crime Ranking": 91.62,
+        "Crime Rate": 60,
+        "Index": 2258,
+        "State": "OH"
+    },
     "Waterville Valley, NH": {
         "Crime Index": 180,
         "Crime Ranking": 45.73,
@@ -61541,13 +61548,6 @@
         "Crime Ranking": 99.74,
         "Crime Rate": 0,
         "Index": 62,
-        "State": "OH"
-    },
-    "WatervilleTownship, OH": {
-        "Crime Index": 26,
-        "Crime Ranking": 91.62,
-        "Crime Rate": 60,
-        "Index": 2258,
         "State": "OH"
     },
     "Watervliet, MI": {
@@ -61774,6 +61774,13 @@
         "Index": 8684,
         "State": "GA"
     },
+    "Wayland Village, NY": {
+        "Crime Index": 0,
+        "Crime Ranking": 99.35,
+        "Crime Rate": 0,
+        "Index": 331,
+        "State": "NY"
+    },
     "Wayland, KY": {
         "Crime Index": 0,
         "Crime Ranking": 99.03,
@@ -61794,13 +61801,6 @@
         "Crime Rate": 240,
         "Index": 5934,
         "State": "MI"
-    },
-    "WaylandVillage, NY": {
-        "Crime Index": 0,
-        "Crime Ranking": 99.35,
-        "Crime Rate": 0,
-        "Index": 331,
-        "State": "NY"
     },
     "Waymart, PA": {
         "Crime Index": 0,
@@ -61956,7 +61956,7 @@
         "Index": 3539,
         "State": "MO"
     },
-    "WebbTown, NY": {
+    "Webb Town, NY": {
         "Crime Index": 0,
         "Crime Ranking": 99.35,
         "Crime Rate": 0,
@@ -62719,6 +62719,13 @@
         "Index": 8752,
         "State": "WI"
     },
+    "West Monroe, LA": {
+        "Crime Index": 401,
+        "Crime Ranking": 13.62,
+        "Crime Rate": 895,
+        "Index": 8933,
+        "State": "LA"
+    },
     "West New York, NJ": {
         "Crime Index": 113,
         "Crime Ranking": 61.17,
@@ -62929,7 +62936,7 @@
         "Index": 8654,
         "State": "MA"
     },
-    "West St. Paul, MN": {
+    "West St Paul, MN": {
         "Crime Index": 196,
         "Crime Ranking": 43.22,
         "Crime Rate": 437,
@@ -62970,6 +62977,13 @@
         "Crime Rate": 56,
         "Index": 2165,
         "State": "TX"
+    },
+    "West Valley, UT": {
+        "Crime Index": 253,
+        "Crime Ranking": 34.78,
+        "Crime Rate": 564,
+        "Index": 8261,
+        "State": "UT"
     },
     "West View, PA": {
         "Crime Index": 46,
@@ -63033,20 +63047,6 @@
         "Crime Rate": 101,
         "Index": 3359,
         "State": "TX"
-    },
-    "WestMonroe, LA": {
-        "Crime Index": 401,
-        "Crime Ranking": 13.62,
-        "Crime Rate": 895,
-        "Index": 8933,
-        "State": "LA"
-    },
-    "WestValley, UT": {
-        "Crime Index": 253,
-        "Crime Ranking": 34.78,
-        "Crime Rate": 564,
-        "Index": 8261,
-        "State": "UT"
     },
     "Westampton Township, NJ": {
         "Crime Index": 76,
@@ -63307,7 +63307,7 @@
         "Index": 6061,
         "State": "WA"
     },
-    "Westtown-East Goshen Regional, PA": {
+    "WesttownEast Goshen Regional, PA": {
         "Crime Index": 50,
         "Crime Ranking": 81.87,
         "Crime Rate": 113,
@@ -63930,7 +63930,7 @@
         "Index": 9209,
         "State": "NJ"
     },
-    "Wilkes-Barre Township, PA": {
+    "WilkesBarre Township, PA": {
         "Crime Index": 259,
         "Crime Ranking": 34.08,
         "Crime Rate": 579,
@@ -64854,19 +64854,19 @@
         "Index": 5714,
         "State": "MA"
     },
+    "Wolcott Village, NY": {
+        "Crime Index": 0,
+        "Crime Ranking": 99.3,
+        "Crime Rate": 0,
+        "Index": 388,
+        "State": "NY"
+    },
     "Wolcott, CT": {
         "Crime Index": 13,
         "Crime Ranking": 96.72,
         "Crime Rate": 29,
         "Index": 1429,
         "State": "CT"
-    },
-    "WolcottVillage, NY": {
-        "Crime Index": 0,
-        "Crime Ranking": 99.3,
-        "Crime Rate": 0,
-        "Index": 388,
-        "State": "NY"
     },
     "Wolf Point, MT": {
         "Crime Index": 232,
@@ -64917,7 +64917,7 @@
         "Index": 4334,
         "State": "MO"
     },
-    "Wood-Ridge, NJ": {
+    "WoodRidge, NJ": {
         "Crime Index": 15,
         "Crime Ranking": 96.07,
         "Crime Rate": 34,
