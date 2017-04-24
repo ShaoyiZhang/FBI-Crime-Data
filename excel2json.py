@@ -59,14 +59,14 @@ for i in range(0,numOfCities):
     # -1: Crime Index -2: Crime Ranking -3: Crime Rate
     # Crime Index: Crime Rate / mean Crime Rate
     # Crime Ranking: safter than % of people in U.S.
-    df.iloc[i,-2] = "{0:.2f}".format((USPOP - popInSaferCities) / USPOP * 100)
+    df.iloc[i,-2] = (USPOP - popInSaferCities) / USPOP * 100
     try:
         df.iloc[i,-3] = int(df.iloc[i,-3])
     except:
         # missing data in violent crime column, set to zero 
         df.iloc[i,-3] = 0
 
-    df.iloc[i,-1] = "{0:.2f}".format(float(df.iloc[i,-3]) / avgCriRate * 100)
+    df.iloc[i,-1] = float(df.iloc[i,-3]) / avgCriRate * 100
 
     if currentCriRate != df.iloc[i,-2]:
         popInSaferCities +=  df.iloc[i]['Population']
@@ -77,6 +77,8 @@ outDict = df.set_index('City').T.to_dict()
 
 for key,value in outDict.items():
     value['Crime Rate'] = int(value['Crime Rate'])
+    value['Crime Index'] = int(value['Crime Index'])
+    value['Crime Ranking'] = float("{0:.2f}".format(value['Crime Ranking']))
     # should try to avoid this loop
 out = json.dumps(outDict, sort_keys=True,indent=4, separators=(',', ': '))
 with open('crimeByCity.json','w') as f:

@@ -15,9 +15,9 @@ Current Attributes in Json:
     
     "Atlantic City": {
     
-        "Crime Index": "574.14",
+        "Crime Index": 574.14,
         
-        "Crime Ranking": "1.67",
+        "Crime Ranking": 1.67,
         
         "Crime Rate": 1564,
         
