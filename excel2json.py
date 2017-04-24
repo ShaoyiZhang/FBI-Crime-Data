@@ -92,7 +92,7 @@ for i in range(0,numOfCities):
 df = df.drop(df.columns[range(4,14)], 1)
 df['Num'] = df["Violent\ncrime"]
 df = df.drop(["Population","Violent\ncrime","State"], 1)
-df['Index'] = range(0,numOfCities) # add index for city(json file need index)
+# df['Index'] = range(0,numOfCities) # add index for city(json file need index)
 outDict = df.set_index('City').T.to_dict()
 
 for key,value in outDict.items():
