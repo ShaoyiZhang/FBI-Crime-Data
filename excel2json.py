@@ -35,7 +35,7 @@ for i in range(1,df.shape[0]):
 df["State"] = df["State"].apply(lambda state: stateDict[state])
 
 # Calculate violent crime rate for each city in df
-# number of violent crimes happens for every 100k every year 
+# number of violent crimes occured for 100k people every year 
 # violent crime rate = # of violent crimes/ (city pop * 100000)
 def getCriRate(row):
     try:
