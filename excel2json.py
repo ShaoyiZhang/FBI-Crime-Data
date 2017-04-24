@@ -59,7 +59,7 @@ currentCriRate = 0.0
 
 # ensure that Ranking for zero crime cities are the same
 zeroCrimePop = float(df[df.Rate == 0]['Population'].sum())
-zeroSafterPercent = (USPOP - zeroCrimePop)/USPOP
+zeroSafterPercent = (USPOP - zeroCrimePop)/USPOP * 100
 popInSaferCities = zeroCrimePop
 
 # calculate crime ranking & index by pop
