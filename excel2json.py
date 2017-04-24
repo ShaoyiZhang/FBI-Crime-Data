@@ -23,7 +23,7 @@ df.columns = newHeader
 df = df.drop(df.index[range(-10,0)]) # deleting comments in EXEL
 numOfCities = df.shape[0]
 
-removeNonAlpha = re.compile('[^a-zA-Z,\ ]')
+removeNonAlpha = re.compile('[^a-zA-Z,\ /]')
 for i in range(1,df.shape[0]):
     if type(df.iloc[i]["State"]) != str:
         df.iloc[i]["State"] = df.iloc[i-1]["State"] # fill state column for all cities
