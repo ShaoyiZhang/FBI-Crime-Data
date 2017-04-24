@@ -27,10 +27,10 @@ removeNonAlpha = re.compile('[^a-zA-Z,\ ]')
 for i in range(1,df.shape[0]):
     if type(df.iloc[i]["State"]) != str:
         df.iloc[i]["State"] = df.iloc[i-1]["State"] # fill state column for all cities
-        if 'Village' in df.iloc[i]["City"]:
-            # print(df.iloc[i]["City"])   
-            temp = re.findall(r"[0-9]", df.iloc[i]["City"])
-            # print(temp)         
+        # if 'Village' in df.iloc[i]["City"]:
+        #     # print(df.iloc[i]["City"])   
+        #     temp = re.findall(r"[0-9]", df.iloc[i]["City"])
+        #     # print(temp)         
 
         reObj = re.findall(r"[0-9]", df.iloc[i]["City"])
         if reObj != None and reObj != []:
@@ -83,7 +83,7 @@ for i in range(0,numOfCities):
     if currentCriRate != df.iloc[i,-2]:
         popInSaferCities +=  df.iloc[i]['Population']
 df = df.drop(df.columns[range(4,14)], 1)
-df = df.drop(["Population","Violent\ncrime"], 1)
+df = df.drop(["Population","Violent\ncrime","State"], 1)
 df['Index'] = range(0,numOfCities) # add index for city(json file need index)
 outDict = df.set_index('City').T.to_dict()
 
