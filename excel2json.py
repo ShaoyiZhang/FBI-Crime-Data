@@ -56,7 +56,14 @@ def getCriRate(row):
 df['Crime Rate'] = df.apply(getCriRate, axis = 1)
 
 # avgCriRate = df.ix[:,'Crime Rate'].mean()
-avgCriRate = df.ix[:,'Population'].sum() / df.ix[:,'Violent\ncrime'].sum()
+# avgCriRate = df.ix[:,'Population'].sum() / (df.ix[:,'Violent\ncrime'].sum()/100000)
+avgCriRate = 372.6 # https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/table-1
+# print(avgCriRate)
+# a = df.ix[:,'Population'].sum()
+# b = df.ix[:,'Violent\ncrime'].sum()
+# print(a)
+# print(b)
+# print(b/(a/100000))
 USPOP = df.ix[:,"Population"].sum()
 
 df = df.sort_values(by=['Crime Rate','Population'], ascending = [True,False])
@@ -103,3 +110,4 @@ with open('crimeByCity.json','w') as f:
 # df['Weighted Crime Rate'] = df['Crime Rate']
 # df['Crime Index'] = df['Weighted Crime Rate']
 print("Json file created: crimeByCity.json")
+
