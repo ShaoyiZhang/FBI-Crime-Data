@@ -53,7 +53,7 @@ def getCriRate(row):
     except ZeroDivisionError:
         return 0
 
-df['Crime Rate'] = df.apply(getCriRate, axis = 1)
+df['Rate'] = df.apply(getCriRate, axis = 1)
 
 # avgCriRate = df.ix[:,'Crime Rate'].mean()
 # avgCriRate = df.ix[:,'Population'].sum() / (df.ix[:,'Violent\ncrime'].sum()/100000)
@@ -66,18 +66,18 @@ avgCriRate = 372.6 # https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.
 # print(b/(a/100000))
 USPOP = df.ix[:,"Population"].sum()
 
-df = df.sort_values(by=['Crime Rate','Population'], ascending = [True,False])
-df['Crime Ranking'] = np.nan
-df['Crime Index'] = np.nan
+df = df.sort_values(by=['Rate','Population'], ascending = [True,False])
+df['Ranking'] = np.nan
+df['Index'] = np.nan
 popInSaferCities = 0.0
 currentCriRate = 0.0
 
 # calculate crime ranking & index by pop
 for i in range(0,numOfCities):
     df.iloc[i,1] = df.iloc[i,1] + ', ' + df.iloc[i,0] # City name, State name. Avoid key confliction
-    # -1: Crime Index -2: Crime Ranking -3: Crime Rate
-    # Crime Index: Crime Rate / mean Crime Rate
-    # Crime Ranking: safter than % of people in U.S.
+    # -1: Index -2: Ranking -3: Rate
+    # Index:  Rate / mean Rate
+    # Ranking: safter than % of people in U.S.
     df.iloc[i,-2] = (USPOP - popInSaferCities) / USPOP * 100
     try:
         df.iloc[i,-3] = int(df.iloc[i,-3])
@@ -90,14 +90,15 @@ for i in range(0,numOfCities):
     if currentCriRate != df.iloc[i,-2]:
         popInSaferCities +=  df.iloc[i]['Population']
 df = df.drop(df.columns[range(4,14)], 1)
+df['Num'] = df["Violent\ncrime"]
 df = df.drop(["Population","Violent\ncrime","State"], 1)
 df['Index'] = range(0,numOfCities) # add index for city(json file need index)
 outDict = df.set_index('City').T.to_dict()
 
 for key,value in outDict.items():
-    value['Crime Rate'] = int(value['Crime Rate'])
-    value['Crime Index'] = int(value['Crime Index'])
-    value['Crime Ranking'] = float("{0:.2f}".format(value['Crime Ranking']))
+    value['Rate'] = int(value['Rate'])
+    value['Index'] = int(value['Index'])
+    value['Ranking'] = float("{0:.2f}".format(value['Ranking']))
     # should try to avoid this loop
 keys = outDict.keys()
 for key in keys:
