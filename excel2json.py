@@ -21,7 +21,6 @@ newHeader = df.iloc[2]
 df = df[3:] # delete xls header
 df.columns = newHeader
 df = df.drop(df.index[range(-10,0)]) # deleting comments in EXEL
-numOfCities = df.shape[0]
 
 removeNonAlpha = re.compile('[^a-zA-Z,\ /]')
 for i in range(1,df.shape[0]):
@@ -43,6 +42,12 @@ for i in range(1,df.shape[0]):
         pass
     # dumb way?
 df["State"] = df["State"].apply(lambda state: stateDict[state])
+
+# deleting cities with ZERO reported population
+df = df[df.Population != 0]
+numOfCities = df.shape[0]
+
+# print(df[df.Population != 0].shape,df.shape)
 
 # Calculate violent crime rate for each city in df
 # number of violent crimes occured for 100k people every year 
