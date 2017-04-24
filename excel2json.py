@@ -35,11 +35,13 @@ for i in range(1,df.shape[0]):
 df["State"] = df["State"].apply(lambda state: stateDict[state])
 
 # Calculate violent crime rate for each city in df
+# number of violent crimes happens for every 100k every year 
+# violent crime rate = # of violent crimes/ (city pop * 100000)
 def getCriRate(row):
     try:
-        return float(row['Violent\ncrime']) / row['Population'] * 100 #df.ix[1:10,'Population']
+        return row['Violent\ncrime'] / (row['Population'] / 100000) #df.ix[1:10,'Population']
     except ZeroDivisionError:
-        return 0.0
+        return 0
 
 df['Crime Rate'] = df.apply(getCriRate, axis = 1)
 
@@ -58,17 +60,24 @@ for i in range(0,numOfCities):
     # Crime Index: Crime Rate / mean Crime Rate
     # Crime Ranking: safter than % of people in U.S.
     df.iloc[i,-2] = "{0:.2f}".format((USPOP - popInSaferCities) / USPOP * 100)
-    df.iloc[i,-3] = "{0:.2f}".format(df.iloc[i,-3])
+    try:
+        df.iloc[i,-3] = int(df.iloc[i,-3])
+    except:
+        # missing data in violent crime column, set to zero 
+        df.iloc[i,-3] = 0
+
     df.iloc[i,-1] = "{0:.2f}".format(float(df.iloc[i,-3]) / avgCriRate * 100)
 
     if currentCriRate != df.iloc[i,-2]:
         popInSaferCities +=  df.iloc[i]['Population']
-
 df = df.drop(df.columns[range(4,14)], 1)
 df = df.drop(["Population","Violent\ncrime"], 1)
 df['Index'] = range(0,numOfCities) # add index for city(json file need index)
-# to json
 outDict = df.set_index('City').T.to_dict()
+
+for key,value in outDict.items():
+    value['Crime Rate'] = int(value['Crime Rate'])
+    # should try to avoid this loop
 out = json.dumps(outDict, sort_keys=True,indent=4, separators=(',', ': '))
 with open('crimeByCity.json','w') as f:
     f.write(out)
