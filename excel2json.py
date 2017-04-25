@@ -17,6 +17,7 @@ stateDict = stateAbbDict()
 print("Generating Json file from xls file")
 filename = './Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2015.xls'
 df = pandas.read_excel(io = filename)
+
 newHeader = df.iloc[2]
 df = df[3:] # delete xls header
 df.columns = newHeader
@@ -37,6 +38,7 @@ df["State"] = df["State"].apply(lambda state: stateDict[state])
 
 # deleting cities with ZERO reported population
 df = df[df.Population != 0]
+# df == df[df['Violent\ncrime'] != np.nan]
 numOfCities = df.shape[0]
 
 # Calculate violent crime rate for each city in df
@@ -86,12 +88,14 @@ for i in range(0,numOfCities):
 df = df.drop(df.columns[range(4,14)], 1)
 df['Num'] = df["Violent\ncrime"]
 df = df.drop(["Population","Violent\ncrime","State"], 1)
+df = df.fillna(0)
 outDict = df.set_index('City').T.to_dict()
 
 for key,value in outDict.items():
     value['Rate'] = int(value['Rate'])
     value['Index'] = int(value['Index'])
     value['Ranking'] = float("{0:.2f}".format(value['Ranking']))
+    value['Num'] = int(value['Num'])
     # should try to avoid this loop
 keys = outDict.keys()
 for key in keys:
